@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BEDEFA521DD6C3BE005D81B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */; };
-		BEDEFA541DD6C3BE005D81B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEFA531DD6C3BE005D81B1 /* ViewController.swift */; };
+		BEDEFA541DD6C3BE005D81B1 /* ChessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEFA531DD6C3BE005D81B1 /* ChessViewController.swift */; };
 		BEDEFA571DD6C3BE005D81B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDEFA551DD6C3BE005D81B1 /* Main.storyboard */; };
 		BEDEFA591DD6C3BE005D81B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDEFA581DD6C3BE005D81B1 /* Assets.xcassets */; };
 		BEDEFA5C1DD6C3BE005D81B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDEFA5A1DD6C3BE005D81B1 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		BEDEFA4E1DD6C3BE005D81B1 /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEDEFA531DD6C3BE005D81B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDEFA531DD6C3BE005D81B1 /* ChessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessViewController.swift; sourceTree = "<group>"; };
 		BEDEFA561DD6C3BE005D81B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEDEFA581DD6C3BE005D81B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDEFA5B1DD6C3BE005D81B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +35,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE2E252C1DD6C51700D1F991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */,
+				BEDEFA581DD6C3BE005D81B1 /* Assets.xcassets */,
+				BEDEFA5A1DD6C3BE005D81B1 /* LaunchScreen.storyboard */,
+				BEDEFA5D1DD6C3BE005D81B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BEDEFA451DD6C3BE005D81B1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +65,9 @@
 		BEDEFA501DD6C3BE005D81B1 /* Chess */ = {
 			isa = PBXGroup;
 			children = (
-				BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */,
-				BEDEFA531DD6C3BE005D81B1 /* ViewController.swift */,
+				BE2E252C1DD6C51700D1F991 /* Supporting Files */,
+				BEDEFA531DD6C3BE005D81B1 /* ChessViewController.swift */,
 				BEDEFA551DD6C3BE005D81B1 /* Main.storyboard */,
-				BEDEFA581DD6C3BE005D81B1 /* Assets.xcassets */,
-				BEDEFA5A1DD6C3BE005D81B1 /* LaunchScreen.storyboard */,
-				BEDEFA5D1DD6C3BE005D81B1 /* Info.plist */,
 			);
 			path = Chess;
 			sourceTree = "<group>";
@@ -135,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEDEFA541DD6C3BE005D81B1 /* ViewController.swift in Sources */,
+				BEDEFA541DD6C3BE005D81B1 /* ChessViewController.swift in Sources */,
 				BEDEFA521DD6C3BE005D81B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +296,7 @@
 				BEDEFA621DD6C3BE005D81B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
