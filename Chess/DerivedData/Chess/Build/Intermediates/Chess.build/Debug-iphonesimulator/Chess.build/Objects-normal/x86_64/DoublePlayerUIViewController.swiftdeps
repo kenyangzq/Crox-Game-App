@@ -6,138 +6,191 @@ provides-nominal:
 provides-member:
 - ["C5Chess28DoublePlayerUIViewController", ""]
 provides-dynamic-lookup:
-- "r21"
-- "rr21"
-- "cc35"
-- "c40"
-- "rr52"
-- "r42"
-- "cc12"
-- "r00"
-- "cc40"
-- "rr02"
-- "c21"
-- "rr24"
-- "cc21"
-- "cc31"
-- "c02"
-- "r22"
-- "c41"
-- "c20"
-- "r20"
-- "rr42"
-- "r01"
-- "c42"
-- "rr40"
-- "rr20"
-- "cc11"
-- "cc41"
-- "c15"
-- "r41"
-- "c01"
-- "cc02"
-- "rr30"
-- "c05"
-- "cc32"
-- "r03"
-- "r44"
-- "r24"
-- "cc01"
-- "cc20"
-- "c34"
-- "rr51"
-- "rr33"
-- "r50"
-- "r02"
-- "rr01"
-- "c23"
-- "rr23"
-- "r43"
-- "rr14"
-- "rr50"
-- "cc10"
-- "rr34"
-- "c35"
-- "c04"
-- "r04"
-- "r23"
-- "c03"
-- "cc33"
-- "cc42"
-- "c22"
-- "cc15"
-- "r52"
-- "cc24"
-- "cc43"
-- "c45"
-- "rr10"
-- "rr44"
-- "cc05"
-- "c30"
-- "c12"
-- "r10"
-- "r32"
-- "cc00"
-- "rr00"
-- "rr13"
-- "c11"
-- "rr32"
-- "didReceiveMemoryWarning"
-- "r12"
-- "c25"
-- "rr22"
-- "rr54"
-- "r30"
-- "viewDidLoad"
-- "cc34"
-- "cc23"
-- "rr04"
-- "r11"
-- "r51"
-- "c24"
-- "c10"
-- "r31"
-- "r34"
-- "rr12"
-- "c33"
-- "r13"
-- "c43"
-- "rr41"
-- "cc14"
-- "cc13"
-- "cc44"
-- "cc04"
-- "c00"
-- "r40"
-- "c14"
-- "c32"
-- "cc22"
-- "cc25"
-- "rr03"
-- "c13"
-- "cc30"
-- "rr31"
-- "cc03"
-- "r33"
-- "r53"
-- "c44"
-- "cc45"
 - "r14"
-- "r54"
+- "i45"
+- "c35"
+- "c00"
+- "rr40"
+- "c34"
+- "c02"
+- "c01"
+- "rr33"
+- "cc43"
+- "r13"
+- "c40"
+- "rr24"
+- "i44"
+- "c03"
+- "rr51"
+- "cc41"
+- "i43"
+- "cc35"
+- "rr31"
+- "r12"
 - "rr53"
+- "c04"
+- "r53"
+- "cc00"
+- "rr10"
+- "i52"
+- "i51"
+- "r21"
+- "cc02"
+- "rr12"
+- "c41"
+- "c05"
+- "rr21"
+- "c43"
+- "r20"
+- "r54"
+- "cc10"
+- "c42"
+- "cc45"
+- "c10"
+- "rr14"
+- "i50"
+- "cc04"
+- "i21"
+- "cc15"
+- "c44"
+- "c11"
+- "cc13"
+- "r50"
+- "r03"
+- "cc21"
+- "r51"
+- "i54"
+- "i22"
+- "cc11"
+- "c12"
+- "i53"
+- "r02"
+- "c13"
+- "c45"
+- "r52"
+- "rr00"
+- "rr02"
+- "cc33"
+- "i24"
+- "r11"
+- "i01"
+- "c14"
+- "i00"
+- "cc31"
+- "r43"
+- "r10"
+- "i02"
+- "cc23"
+- "r44"
+- "rr44"
+- "c15"
+- "i55"
+- "i23"
+- "rr42"
+- "r04"
+- "cc25"
+- "rr34"
+- "viewDidLoad"
+- "c20"
+- "i30"
+- "r40"
+- "rr32"
+- "i31"
+- "i03"
+- "rr22"
+- "i25"
+- "cc42"
+- "r41"
+- "c21"
+- "didReceiveMemoryWarning"
+- "c22"
+- "rr04"
+- "rr52"
+- "cc40"
+- "r42"
+- "i04"
+- "rr30"
+- "i33"
+- "i10"
+- "r32"
+- "rr54"
+- "r01"
+- "i05"
+- "rr23"
+- "r33"
+- "c23"
+- "cc01"
 - "rr11"
+- "c24"
+- "rr20"
+- "cc05"
+- "i11"
+- "r00"
+- "rr13"
+- "cc44"
+- "TurnIndicator"
+- "r34"
+- "cc03"
+- "i32"
+- "cc14"
+- "c25"
+- "r30"
+- "cc20"
+- "c30"
+- "i12"
+- "i40"
+- "cc12"
+- "cc22"
+- "i14"
+- "r31"
+- "i34"
+- "i35"
 - "c31"
+- "i13"
+- "c32"
+- "r22"
+- "i42"
+- "rr01"
+- "cc34"
+- "rr03"
+- "i15"
+- "rr50"
+- "r23"
+- "cc32"
+- "cc24"
+- "c33"
 - "rr43"
+- "cc30"
+- "i20"
+- "rr41"
+- "r24"
+- "i41"
 depends-top-level:
+- !private "BooleanLiteralType"
 - "UIViewController"
-- "DoublePlayerUIViewController"
 - "CGFloat"
+- "Bool"
 - !private "UIColor"
+- "UIImageView"
+- "Board"
+- "DoublePlayerUIViewController"
+- !private "UIImage"
+- !private "Point"
+- !private "StringLiteralType"
+- !private "!"
 - "UIButton"
 depends-member:
+- ["Ps9AnyObject", "Board"]
+- ["Ps9AnyObject", "Bool"]
 - !private ["Ps9AnyObject", "CGColor"]
+- !private ["Ps9AnyObject", "Point"]
+- ["Ps9AnyObject", "TurnIndicator"]
 - !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "backgroundColor"]
 - !private ["Ps9AnyObject", "blackColor"]
+- !private ["Ps9AnyObject", "blueColor"]
+- ["Ps9AnyObject", "board"]
 - !private ["Ps9AnyObject", "borderColor"]
 - ["Ps9AnyObject", "borderWidth"]
 - ["Ps9AnyObject", "c00"]
@@ -200,10 +253,52 @@ depends-member:
 - ["Ps9AnyObject", "cc43"]
 - ["Ps9AnyObject", "cc44"]
 - ["Ps9AnyObject", "cc45"]
+- ["Ps9AnyObject", "changeColor"]
+- ["Ps9AnyObject", "checkTurn"]
 - !private ["Ps9AnyObject", "cornerRadius"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "endGame"]
+- ["Ps9AnyObject", "firstplay"]
+- ["Ps9AnyObject", "i00"]
+- ["Ps9AnyObject", "i01"]
+- ["Ps9AnyObject", "i02"]
+- ["Ps9AnyObject", "i03"]
+- ["Ps9AnyObject", "i04"]
+- ["Ps9AnyObject", "i05"]
+- ["Ps9AnyObject", "i10"]
+- ["Ps9AnyObject", "i11"]
+- ["Ps9AnyObject", "i12"]
+- ["Ps9AnyObject", "i13"]
+- ["Ps9AnyObject", "i14"]
+- ["Ps9AnyObject", "i15"]
+- ["Ps9AnyObject", "i20"]
+- ["Ps9AnyObject", "i21"]
+- ["Ps9AnyObject", "i22"]
+- ["Ps9AnyObject", "i23"]
+- ["Ps9AnyObject", "i24"]
+- ["Ps9AnyObject", "i25"]
+- ["Ps9AnyObject", "i30"]
+- ["Ps9AnyObject", "i31"]
+- ["Ps9AnyObject", "i32"]
+- ["Ps9AnyObject", "i33"]
+- ["Ps9AnyObject", "i34"]
+- ["Ps9AnyObject", "i35"]
+- ["Ps9AnyObject", "i40"]
+- ["Ps9AnyObject", "i41"]
+- ["Ps9AnyObject", "i42"]
+- ["Ps9AnyObject", "i43"]
+- ["Ps9AnyObject", "i44"]
+- ["Ps9AnyObject", "i45"]
+- ["Ps9AnyObject", "i50"]
+- ["Ps9AnyObject", "i51"]
+- ["Ps9AnyObject", "i52"]
+- ["Ps9AnyObject", "i53"]
+- ["Ps9AnyObject", "i54"]
+- ["Ps9AnyObject", "i55"]
+- !private ["Ps9AnyObject", "image"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "play"]
 - ["Ps9AnyObject", "r00"]
 - ["Ps9AnyObject", "r01"]
 - ["Ps9AnyObject", "r02"]
@@ -234,6 +329,7 @@ depends-member:
 - ["Ps9AnyObject", "r52"]
 - ["Ps9AnyObject", "r53"]
 - ["Ps9AnyObject", "r54"]
+- !private ["Ps9AnyObject", "redColor"]
 - ["Ps9AnyObject", "rr00"]
 - ["Ps9AnyObject", "rr01"]
 - ["Ps9AnyObject", "rr02"]
@@ -264,18 +360,38 @@ depends-member:
 - ["Ps9AnyObject", "rr52"]
 - ["Ps9AnyObject", "rr53"]
 - ["Ps9AnyObject", "rr54"]
+- !private ["Ps9AnyObject", "setTitle"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "Disabled"]
+- ["C5Chess5Board", "init"]
+- !private ["C5Chess5Board", "play"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "init"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "init"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "init"]
+- !private ["CSo7CALayer", "backgroundColor"]
 - !private ["CSo7CALayer", "borderColor"]
 - !private ["CSo7CALayer", "borderWidth"]
 - !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "backgroundColor"]
 - !private ["PSo13CAMediaTiming", "borderColor"]
 - !private ["PSo13CAMediaTiming", "borderWidth"]
 - !private ["PSo13CAMediaTiming", "cornerRadius"]
 - ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps11CVarArgType", "Board"]
+- ["Ps11CVarArgType", "Bool"]
 - !private ["Ps11CVarArgType", "CGColor"]
+- !private ["Ps11CVarArgType", "Point"]
+- ["Ps11CVarArgType", "TurnIndicator"]
 - !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
 - !private ["Ps11CVarArgType", "blackColor"]
+- !private ["Ps11CVarArgType", "blueColor"]
+- ["Ps11CVarArgType", "board"]
 - !private ["Ps11CVarArgType", "borderColor"]
 - ["Ps11CVarArgType", "borderWidth"]
 - ["Ps11CVarArgType", "c00"]
@@ -338,8 +454,49 @@ depends-member:
 - ["Ps11CVarArgType", "cc43"]
 - ["Ps11CVarArgType", "cc44"]
 - ["Ps11CVarArgType", "cc45"]
+- ["Ps11CVarArgType", "changeColor"]
+- ["Ps11CVarArgType", "checkTurn"]
 - !private ["Ps11CVarArgType", "cornerRadius"]
 - ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "endGame"]
+- ["Ps11CVarArgType", "firstplay"]
+- ["Ps11CVarArgType", "i00"]
+- ["Ps11CVarArgType", "i01"]
+- ["Ps11CVarArgType", "i02"]
+- ["Ps11CVarArgType", "i03"]
+- ["Ps11CVarArgType", "i04"]
+- ["Ps11CVarArgType", "i05"]
+- ["Ps11CVarArgType", "i10"]
+- ["Ps11CVarArgType", "i11"]
+- ["Ps11CVarArgType", "i12"]
+- ["Ps11CVarArgType", "i13"]
+- ["Ps11CVarArgType", "i14"]
+- ["Ps11CVarArgType", "i15"]
+- ["Ps11CVarArgType", "i20"]
+- ["Ps11CVarArgType", "i21"]
+- ["Ps11CVarArgType", "i22"]
+- ["Ps11CVarArgType", "i23"]
+- ["Ps11CVarArgType", "i24"]
+- ["Ps11CVarArgType", "i25"]
+- ["Ps11CVarArgType", "i30"]
+- ["Ps11CVarArgType", "i31"]
+- ["Ps11CVarArgType", "i32"]
+- ["Ps11CVarArgType", "i33"]
+- ["Ps11CVarArgType", "i34"]
+- ["Ps11CVarArgType", "i35"]
+- ["Ps11CVarArgType", "i40"]
+- ["Ps11CVarArgType", "i41"]
+- ["Ps11CVarArgType", "i42"]
+- ["Ps11CVarArgType", "i43"]
+- ["Ps11CVarArgType", "i44"]
+- ["Ps11CVarArgType", "i45"]
+- ["Ps11CVarArgType", "i50"]
+- ["Ps11CVarArgType", "i51"]
+- ["Ps11CVarArgType", "i52"]
+- ["Ps11CVarArgType", "i53"]
+- ["Ps11CVarArgType", "i54"]
+- ["Ps11CVarArgType", "i55"]
+- !private ["Ps11CVarArgType", "image"]
 - ["Ps11CVarArgType", "init"]
 - !private ["Ps11CVarArgType", "layer"]
 - ["Ps11CVarArgType", "r00"]
@@ -372,6 +529,7 @@ depends-member:
 - ["Ps11CVarArgType", "r52"]
 - ["Ps11CVarArgType", "r53"]
 - ["Ps11CVarArgType", "r54"]
+- !private ["Ps11CVarArgType", "redColor"]
 - ["Ps11CVarArgType", "rr00"]
 - ["Ps11CVarArgType", "rr01"]
 - ["Ps11CVarArgType", "rr02"]
@@ -402,11 +560,20 @@ depends-member:
 - ["Ps11CVarArgType", "rr52"]
 - ["Ps11CVarArgType", "rr53"]
 - ["Ps11CVarArgType", "rr54"]
+- !private ["Ps11CVarArgType", "setTitle"]
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Board"]
+- ["Ps28CustomDebugStringConvertible", "Bool"]
 - !private ["Ps28CustomDebugStringConvertible", "CGColor"]
+- !private ["Ps28CustomDebugStringConvertible", "Point"]
+- ["Ps28CustomDebugStringConvertible", "TurnIndicator"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
 - !private ["Ps28CustomDebugStringConvertible", "blackColor"]
+- !private ["Ps28CustomDebugStringConvertible", "blueColor"]
+- ["Ps28CustomDebugStringConvertible", "board"]
 - !private ["Ps28CustomDebugStringConvertible", "borderColor"]
 - ["Ps28CustomDebugStringConvertible", "borderWidth"]
 - ["Ps28CustomDebugStringConvertible", "c00"]
@@ -469,8 +636,49 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "cc43"]
 - ["Ps28CustomDebugStringConvertible", "cc44"]
 - ["Ps28CustomDebugStringConvertible", "cc45"]
+- ["Ps28CustomDebugStringConvertible", "changeColor"]
+- ["Ps28CustomDebugStringConvertible", "checkTurn"]
 - !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "endGame"]
+- ["Ps28CustomDebugStringConvertible", "firstplay"]
+- ["Ps28CustomDebugStringConvertible", "i00"]
+- ["Ps28CustomDebugStringConvertible", "i01"]
+- ["Ps28CustomDebugStringConvertible", "i02"]
+- ["Ps28CustomDebugStringConvertible", "i03"]
+- ["Ps28CustomDebugStringConvertible", "i04"]
+- ["Ps28CustomDebugStringConvertible", "i05"]
+- ["Ps28CustomDebugStringConvertible", "i10"]
+- ["Ps28CustomDebugStringConvertible", "i11"]
+- ["Ps28CustomDebugStringConvertible", "i12"]
+- ["Ps28CustomDebugStringConvertible", "i13"]
+- ["Ps28CustomDebugStringConvertible", "i14"]
+- ["Ps28CustomDebugStringConvertible", "i15"]
+- ["Ps28CustomDebugStringConvertible", "i20"]
+- ["Ps28CustomDebugStringConvertible", "i21"]
+- ["Ps28CustomDebugStringConvertible", "i22"]
+- ["Ps28CustomDebugStringConvertible", "i23"]
+- ["Ps28CustomDebugStringConvertible", "i24"]
+- ["Ps28CustomDebugStringConvertible", "i25"]
+- ["Ps28CustomDebugStringConvertible", "i30"]
+- ["Ps28CustomDebugStringConvertible", "i31"]
+- ["Ps28CustomDebugStringConvertible", "i32"]
+- ["Ps28CustomDebugStringConvertible", "i33"]
+- ["Ps28CustomDebugStringConvertible", "i34"]
+- ["Ps28CustomDebugStringConvertible", "i35"]
+- ["Ps28CustomDebugStringConvertible", "i40"]
+- ["Ps28CustomDebugStringConvertible", "i41"]
+- ["Ps28CustomDebugStringConvertible", "i42"]
+- ["Ps28CustomDebugStringConvertible", "i43"]
+- ["Ps28CustomDebugStringConvertible", "i44"]
+- ["Ps28CustomDebugStringConvertible", "i45"]
+- ["Ps28CustomDebugStringConvertible", "i50"]
+- ["Ps28CustomDebugStringConvertible", "i51"]
+- ["Ps28CustomDebugStringConvertible", "i52"]
+- ["Ps28CustomDebugStringConvertible", "i53"]
+- ["Ps28CustomDebugStringConvertible", "i54"]
+- ["Ps28CustomDebugStringConvertible", "i55"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "layer"]
 - ["Ps28CustomDebugStringConvertible", "r00"]
@@ -503,6 +711,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "r52"]
 - ["Ps28CustomDebugStringConvertible", "r53"]
 - ["Ps28CustomDebugStringConvertible", "r54"]
+- !private ["Ps28CustomDebugStringConvertible", "redColor"]
 - ["Ps28CustomDebugStringConvertible", "rr00"]
 - ["Ps28CustomDebugStringConvertible", "rr01"]
 - ["Ps28CustomDebugStringConvertible", "rr02"]
@@ -533,11 +742,21 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "rr52"]
 - ["Ps28CustomDebugStringConvertible", "rr53"]
 - ["Ps28CustomDebugStringConvertible", "rr54"]
+- !private ["Ps28CustomDebugStringConvertible", "setTitle"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Board"]
+- ["Ps23CustomStringConvertible", "Bool"]
 - !private ["Ps23CustomStringConvertible", "CGColor"]
+- !private ["Ps23CustomStringConvertible", "Point"]
+- ["Ps23CustomStringConvertible", "TurnIndicator"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
 - !private ["Ps23CustomStringConvertible", "blackColor"]
+- !private ["Ps23CustomStringConvertible", "blueColor"]
+- ["Ps23CustomStringConvertible", "board"]
 - !private ["Ps23CustomStringConvertible", "borderColor"]
 - ["Ps23CustomStringConvertible", "borderWidth"]
 - ["Ps23CustomStringConvertible", "c00"]
@@ -600,8 +819,49 @@ depends-member:
 - ["Ps23CustomStringConvertible", "cc43"]
 - ["Ps23CustomStringConvertible", "cc44"]
 - ["Ps23CustomStringConvertible", "cc45"]
+- ["Ps23CustomStringConvertible", "changeColor"]
+- ["Ps23CustomStringConvertible", "checkTurn"]
 - !private ["Ps23CustomStringConvertible", "cornerRadius"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "endGame"]
+- ["Ps23CustomStringConvertible", "firstplay"]
+- ["Ps23CustomStringConvertible", "i00"]
+- ["Ps23CustomStringConvertible", "i01"]
+- ["Ps23CustomStringConvertible", "i02"]
+- ["Ps23CustomStringConvertible", "i03"]
+- ["Ps23CustomStringConvertible", "i04"]
+- ["Ps23CustomStringConvertible", "i05"]
+- ["Ps23CustomStringConvertible", "i10"]
+- ["Ps23CustomStringConvertible", "i11"]
+- ["Ps23CustomStringConvertible", "i12"]
+- ["Ps23CustomStringConvertible", "i13"]
+- ["Ps23CustomStringConvertible", "i14"]
+- ["Ps23CustomStringConvertible", "i15"]
+- ["Ps23CustomStringConvertible", "i20"]
+- ["Ps23CustomStringConvertible", "i21"]
+- ["Ps23CustomStringConvertible", "i22"]
+- ["Ps23CustomStringConvertible", "i23"]
+- ["Ps23CustomStringConvertible", "i24"]
+- ["Ps23CustomStringConvertible", "i25"]
+- ["Ps23CustomStringConvertible", "i30"]
+- ["Ps23CustomStringConvertible", "i31"]
+- ["Ps23CustomStringConvertible", "i32"]
+- ["Ps23CustomStringConvertible", "i33"]
+- ["Ps23CustomStringConvertible", "i34"]
+- ["Ps23CustomStringConvertible", "i35"]
+- ["Ps23CustomStringConvertible", "i40"]
+- ["Ps23CustomStringConvertible", "i41"]
+- ["Ps23CustomStringConvertible", "i42"]
+- ["Ps23CustomStringConvertible", "i43"]
+- ["Ps23CustomStringConvertible", "i44"]
+- ["Ps23CustomStringConvertible", "i45"]
+- ["Ps23CustomStringConvertible", "i50"]
+- ["Ps23CustomStringConvertible", "i51"]
+- ["Ps23CustomStringConvertible", "i52"]
+- ["Ps23CustomStringConvertible", "i53"]
+- ["Ps23CustomStringConvertible", "i54"]
+- ["Ps23CustomStringConvertible", "i55"]
+- !private ["Ps23CustomStringConvertible", "image"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "layer"]
 - ["Ps23CustomStringConvertible", "r00"]
@@ -634,6 +894,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "r52"]
 - ["Ps23CustomStringConvertible", "r53"]
 - ["Ps23CustomStringConvertible", "r54"]
+- !private ["Ps23CustomStringConvertible", "redColor"]
 - ["Ps23CustomStringConvertible", "rr00"]
 - ["Ps23CustomStringConvertible", "rr01"]
 - ["Ps23CustomStringConvertible", "rr02"]
@@ -664,11 +925,19 @@ depends-member:
 - ["Ps23CustomStringConvertible", "rr52"]
 - ["Ps23CustomStringConvertible", "rr53"]
 - ["Ps23CustomStringConvertible", "rr54"]
+- !private ["Ps23CustomStringConvertible", "setTitle"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
+- ["C5Chess28DoublePlayerUIViewController", "Board"]
+- ["C5Chess28DoublePlayerUIViewController", "Bool"]
 - ["C5Chess28DoublePlayerUIViewController", "CGFloat"]
+- !private ["C5Chess28DoublePlayerUIViewController", "Point"]
+- ["C5Chess28DoublePlayerUIViewController", "TurnIndicator"]
 - ["C5Chess28DoublePlayerUIViewController", "UIButton"]
 - !private ["C5Chess28DoublePlayerUIViewController", "UIColor"]
+- !private ["C5Chess28DoublePlayerUIViewController", "UIImage"]
+- ["C5Chess28DoublePlayerUIViewController", "UIImageView"]
+- !private ["C5Chess28DoublePlayerUIViewController", "board"]
 - !private ["C5Chess28DoublePlayerUIViewController", "borderWidth"]
 - ["C5Chess28DoublePlayerUIViewController", "c00"]
 - ["C5Chess28DoublePlayerUIViewController", "c01"]
@@ -730,8 +999,48 @@ depends-member:
 - ["C5Chess28DoublePlayerUIViewController", "cc43"]
 - ["C5Chess28DoublePlayerUIViewController", "cc44"]
 - ["C5Chess28DoublePlayerUIViewController", "cc45"]
+- !private ["C5Chess28DoublePlayerUIViewController", "changeColor"]
+- !private ["C5Chess28DoublePlayerUIViewController", "checkTurn"]
 - ["C5Chess28DoublePlayerUIViewController", "deinit"]
 - ["C5Chess28DoublePlayerUIViewController", "didReceiveMemoryWarning"]
+- !private ["C5Chess28DoublePlayerUIViewController", "endGame"]
+- !private ["C5Chess28DoublePlayerUIViewController", "firstplay"]
+- ["C5Chess28DoublePlayerUIViewController", "i00"]
+- ["C5Chess28DoublePlayerUIViewController", "i01"]
+- ["C5Chess28DoublePlayerUIViewController", "i02"]
+- ["C5Chess28DoublePlayerUIViewController", "i03"]
+- ["C5Chess28DoublePlayerUIViewController", "i04"]
+- ["C5Chess28DoublePlayerUIViewController", "i05"]
+- ["C5Chess28DoublePlayerUIViewController", "i10"]
+- ["C5Chess28DoublePlayerUIViewController", "i11"]
+- ["C5Chess28DoublePlayerUIViewController", "i12"]
+- ["C5Chess28DoublePlayerUIViewController", "i13"]
+- ["C5Chess28DoublePlayerUIViewController", "i14"]
+- ["C5Chess28DoublePlayerUIViewController", "i15"]
+- ["C5Chess28DoublePlayerUIViewController", "i20"]
+- ["C5Chess28DoublePlayerUIViewController", "i21"]
+- ["C5Chess28DoublePlayerUIViewController", "i22"]
+- ["C5Chess28DoublePlayerUIViewController", "i23"]
+- ["C5Chess28DoublePlayerUIViewController", "i24"]
+- ["C5Chess28DoublePlayerUIViewController", "i25"]
+- ["C5Chess28DoublePlayerUIViewController", "i30"]
+- ["C5Chess28DoublePlayerUIViewController", "i31"]
+- ["C5Chess28DoublePlayerUIViewController", "i32"]
+- ["C5Chess28DoublePlayerUIViewController", "i33"]
+- ["C5Chess28DoublePlayerUIViewController", "i34"]
+- ["C5Chess28DoublePlayerUIViewController", "i35"]
+- ["C5Chess28DoublePlayerUIViewController", "i40"]
+- ["C5Chess28DoublePlayerUIViewController", "i41"]
+- ["C5Chess28DoublePlayerUIViewController", "i42"]
+- ["C5Chess28DoublePlayerUIViewController", "i43"]
+- ["C5Chess28DoublePlayerUIViewController", "i44"]
+- ["C5Chess28DoublePlayerUIViewController", "i45"]
+- ["C5Chess28DoublePlayerUIViewController", "i50"]
+- ["C5Chess28DoublePlayerUIViewController", "i51"]
+- ["C5Chess28DoublePlayerUIViewController", "i52"]
+- ["C5Chess28DoublePlayerUIViewController", "i53"]
+- ["C5Chess28DoublePlayerUIViewController", "i54"]
+- ["C5Chess28DoublePlayerUIViewController", "i55"]
 - ["C5Chess28DoublePlayerUIViewController", "init"]
 - ["C5Chess28DoublePlayerUIViewController", "r00"]
 - ["C5Chess28DoublePlayerUIViewController", "r01"]
@@ -794,9 +1103,19 @@ depends-member:
 - ["C5Chess28DoublePlayerUIViewController", "rr53"]
 - ["C5Chess28DoublePlayerUIViewController", "rr54"]
 - ["C5Chess28DoublePlayerUIViewController", "viewDidLoad"]
+- ["Ps9Equatable", "Board"]
+- ["Ps9Equatable", "Bool"]
 - !private ["Ps9Equatable", "CGColor"]
+- !private ["Ps9Equatable", "Disabled"]
+- !private ["Ps9Equatable", "Point"]
+- ["Ps9Equatable", "TurnIndicator"]
 - !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "backgroundColor"]
 - !private ["Ps9Equatable", "blackColor"]
+- !private ["Ps9Equatable", "blueColor"]
+- ["Ps9Equatable", "board"]
 - !private ["Ps9Equatable", "borderColor"]
 - ["Ps9Equatable", "borderWidth"]
 - ["Ps9Equatable", "c00"]
@@ -859,8 +1178,49 @@ depends-member:
 - ["Ps9Equatable", "cc43"]
 - ["Ps9Equatable", "cc44"]
 - ["Ps9Equatable", "cc45"]
+- ["Ps9Equatable", "changeColor"]
+- ["Ps9Equatable", "checkTurn"]
 - !private ["Ps9Equatable", "cornerRadius"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "endGame"]
+- ["Ps9Equatable", "firstplay"]
+- ["Ps9Equatable", "i00"]
+- ["Ps9Equatable", "i01"]
+- ["Ps9Equatable", "i02"]
+- ["Ps9Equatable", "i03"]
+- ["Ps9Equatable", "i04"]
+- ["Ps9Equatable", "i05"]
+- ["Ps9Equatable", "i10"]
+- ["Ps9Equatable", "i11"]
+- ["Ps9Equatable", "i12"]
+- ["Ps9Equatable", "i13"]
+- ["Ps9Equatable", "i14"]
+- ["Ps9Equatable", "i15"]
+- ["Ps9Equatable", "i20"]
+- ["Ps9Equatable", "i21"]
+- ["Ps9Equatable", "i22"]
+- ["Ps9Equatable", "i23"]
+- ["Ps9Equatable", "i24"]
+- ["Ps9Equatable", "i25"]
+- ["Ps9Equatable", "i30"]
+- ["Ps9Equatable", "i31"]
+- ["Ps9Equatable", "i32"]
+- ["Ps9Equatable", "i33"]
+- ["Ps9Equatable", "i34"]
+- ["Ps9Equatable", "i35"]
+- ["Ps9Equatable", "i40"]
+- ["Ps9Equatable", "i41"]
+- ["Ps9Equatable", "i42"]
+- ["Ps9Equatable", "i43"]
+- ["Ps9Equatable", "i44"]
+- ["Ps9Equatable", "i45"]
+- ["Ps9Equatable", "i50"]
+- ["Ps9Equatable", "i51"]
+- ["Ps9Equatable", "i52"]
+- ["Ps9Equatable", "i53"]
+- ["Ps9Equatable", "i54"]
+- ["Ps9Equatable", "i55"]
+- !private ["Ps9Equatable", "image"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "layer"]
 - ["Ps9Equatable", "r00"]
@@ -893,6 +1253,7 @@ depends-member:
 - ["Ps9Equatable", "r52"]
 - ["Ps9Equatable", "r53"]
 - ["Ps9Equatable", "r54"]
+- !private ["Ps9Equatable", "redColor"]
 - ["Ps9Equatable", "rr00"]
 - ["Ps9Equatable", "rr01"]
 - ["Ps9Equatable", "rr02"]
@@ -923,11 +1284,21 @@ depends-member:
 - ["Ps9Equatable", "rr52"]
 - ["Ps9Equatable", "rr53"]
 - ["Ps9Equatable", "rr54"]
+- !private ["Ps9Equatable", "setTitle"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
+- ["Ps8Hashable", "Board"]
+- ["Ps8Hashable", "Bool"]
 - !private ["Ps8Hashable", "CGColor"]
+- !private ["Ps8Hashable", "Point"]
+- ["Ps8Hashable", "TurnIndicator"]
 - !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "backgroundColor"]
 - !private ["Ps8Hashable", "blackColor"]
+- !private ["Ps8Hashable", "blueColor"]
+- ["Ps8Hashable", "board"]
 - !private ["Ps8Hashable", "borderColor"]
 - ["Ps8Hashable", "borderWidth"]
 - ["Ps8Hashable", "c00"]
@@ -990,8 +1361,49 @@ depends-member:
 - ["Ps8Hashable", "cc43"]
 - ["Ps8Hashable", "cc44"]
 - ["Ps8Hashable", "cc45"]
+- ["Ps8Hashable", "changeColor"]
+- ["Ps8Hashable", "checkTurn"]
 - !private ["Ps8Hashable", "cornerRadius"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "endGame"]
+- ["Ps8Hashable", "firstplay"]
+- ["Ps8Hashable", "i00"]
+- ["Ps8Hashable", "i01"]
+- ["Ps8Hashable", "i02"]
+- ["Ps8Hashable", "i03"]
+- ["Ps8Hashable", "i04"]
+- ["Ps8Hashable", "i05"]
+- ["Ps8Hashable", "i10"]
+- ["Ps8Hashable", "i11"]
+- ["Ps8Hashable", "i12"]
+- ["Ps8Hashable", "i13"]
+- ["Ps8Hashable", "i14"]
+- ["Ps8Hashable", "i15"]
+- ["Ps8Hashable", "i20"]
+- ["Ps8Hashable", "i21"]
+- ["Ps8Hashable", "i22"]
+- ["Ps8Hashable", "i23"]
+- ["Ps8Hashable", "i24"]
+- ["Ps8Hashable", "i25"]
+- ["Ps8Hashable", "i30"]
+- ["Ps8Hashable", "i31"]
+- ["Ps8Hashable", "i32"]
+- ["Ps8Hashable", "i33"]
+- ["Ps8Hashable", "i34"]
+- ["Ps8Hashable", "i35"]
+- ["Ps8Hashable", "i40"]
+- ["Ps8Hashable", "i41"]
+- ["Ps8Hashable", "i42"]
+- ["Ps8Hashable", "i43"]
+- ["Ps8Hashable", "i44"]
+- ["Ps8Hashable", "i45"]
+- ["Ps8Hashable", "i50"]
+- ["Ps8Hashable", "i51"]
+- ["Ps8Hashable", "i52"]
+- ["Ps8Hashable", "i53"]
+- ["Ps8Hashable", "i54"]
+- ["Ps8Hashable", "i55"]
+- !private ["Ps8Hashable", "image"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "layer"]
 - ["Ps8Hashable", "r00"]
@@ -1024,6 +1436,7 @@ depends-member:
 - ["Ps8Hashable", "r52"]
 - ["Ps8Hashable", "r53"]
 - ["Ps8Hashable", "r54"]
+- !private ["Ps8Hashable", "redColor"]
 - ["Ps8Hashable", "rr00"]
 - ["Ps8Hashable", "rr01"]
 - ["Ps8Hashable", "rr02"]
@@ -1054,11 +1467,20 @@ depends-member:
 - ["Ps8Hashable", "rr52"]
 - ["Ps8Hashable", "rr53"]
 - ["Ps8Hashable", "rr54"]
+- !private ["Ps8Hashable", "setTitle"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "Board"]
+- ["PSo8NSCoding", "Bool"]
 - !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "Point"]
+- ["PSo8NSCoding", "TurnIndicator"]
 - !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "backgroundColor"]
 - !private ["PSo8NSCoding", "blackColor"]
+- !private ["PSo8NSCoding", "blueColor"]
+- ["PSo8NSCoding", "board"]
 - !private ["PSo8NSCoding", "borderColor"]
 - ["PSo8NSCoding", "borderWidth"]
 - ["PSo8NSCoding", "c00"]
@@ -1121,8 +1543,49 @@ depends-member:
 - ["PSo8NSCoding", "cc43"]
 - ["PSo8NSCoding", "cc44"]
 - ["PSo8NSCoding", "cc45"]
+- ["PSo8NSCoding", "changeColor"]
+- ["PSo8NSCoding", "checkTurn"]
 - !private ["PSo8NSCoding", "cornerRadius"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "endGame"]
+- ["PSo8NSCoding", "firstplay"]
+- ["PSo8NSCoding", "i00"]
+- ["PSo8NSCoding", "i01"]
+- ["PSo8NSCoding", "i02"]
+- ["PSo8NSCoding", "i03"]
+- ["PSo8NSCoding", "i04"]
+- ["PSo8NSCoding", "i05"]
+- ["PSo8NSCoding", "i10"]
+- ["PSo8NSCoding", "i11"]
+- ["PSo8NSCoding", "i12"]
+- ["PSo8NSCoding", "i13"]
+- ["PSo8NSCoding", "i14"]
+- ["PSo8NSCoding", "i15"]
+- ["PSo8NSCoding", "i20"]
+- ["PSo8NSCoding", "i21"]
+- ["PSo8NSCoding", "i22"]
+- ["PSo8NSCoding", "i23"]
+- ["PSo8NSCoding", "i24"]
+- ["PSo8NSCoding", "i25"]
+- ["PSo8NSCoding", "i30"]
+- ["PSo8NSCoding", "i31"]
+- ["PSo8NSCoding", "i32"]
+- ["PSo8NSCoding", "i33"]
+- ["PSo8NSCoding", "i34"]
+- ["PSo8NSCoding", "i35"]
+- ["PSo8NSCoding", "i40"]
+- ["PSo8NSCoding", "i41"]
+- ["PSo8NSCoding", "i42"]
+- ["PSo8NSCoding", "i43"]
+- ["PSo8NSCoding", "i44"]
+- ["PSo8NSCoding", "i45"]
+- ["PSo8NSCoding", "i50"]
+- ["PSo8NSCoding", "i51"]
+- ["PSo8NSCoding", "i52"]
+- ["PSo8NSCoding", "i53"]
+- ["PSo8NSCoding", "i54"]
+- ["PSo8NSCoding", "i55"]
+- !private ["PSo8NSCoding", "image"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "layer"]
 - ["PSo8NSCoding", "r00"]
@@ -1155,6 +1618,7 @@ depends-member:
 - ["PSo8NSCoding", "r52"]
 - ["PSo8NSCoding", "r53"]
 - ["PSo8NSCoding", "r54"]
+- !private ["PSo8NSCoding", "redColor"]
 - ["PSo8NSCoding", "rr00"]
 - ["PSo8NSCoding", "rr01"]
 - ["PSo8NSCoding", "rr02"]
@@ -1185,11 +1649,20 @@ depends-member:
 - ["PSo8NSCoding", "rr52"]
 - ["PSo8NSCoding", "rr53"]
 - ["PSo8NSCoding", "rr54"]
+- !private ["PSo8NSCoding", "setTitle"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "CGColor"]
 - !private ["PSo9NSCopying", "blackColor"]
+- !private ["PSo9NSCopying", "blueColor"]
+- !private ["PSo9NSCopying", "redColor"]
+- ["PSo26NSExtensionRequestHandling", "Board"]
+- ["PSo26NSExtensionRequestHandling", "Bool"]
+- !private ["PSo26NSExtensionRequestHandling", "Point"]
+- ["PSo26NSExtensionRequestHandling", "TurnIndicator"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- ["PSo26NSExtensionRequestHandling", "board"]
 - ["PSo26NSExtensionRequestHandling", "borderWidth"]
 - ["PSo26NSExtensionRequestHandling", "c00"]
 - ["PSo26NSExtensionRequestHandling", "c01"]
@@ -1251,7 +1724,47 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "cc43"]
 - ["PSo26NSExtensionRequestHandling", "cc44"]
 - ["PSo26NSExtensionRequestHandling", "cc45"]
+- ["PSo26NSExtensionRequestHandling", "changeColor"]
+- ["PSo26NSExtensionRequestHandling", "checkTurn"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "endGame"]
+- ["PSo26NSExtensionRequestHandling", "firstplay"]
+- ["PSo26NSExtensionRequestHandling", "i00"]
+- ["PSo26NSExtensionRequestHandling", "i01"]
+- ["PSo26NSExtensionRequestHandling", "i02"]
+- ["PSo26NSExtensionRequestHandling", "i03"]
+- ["PSo26NSExtensionRequestHandling", "i04"]
+- ["PSo26NSExtensionRequestHandling", "i05"]
+- ["PSo26NSExtensionRequestHandling", "i10"]
+- ["PSo26NSExtensionRequestHandling", "i11"]
+- ["PSo26NSExtensionRequestHandling", "i12"]
+- ["PSo26NSExtensionRequestHandling", "i13"]
+- ["PSo26NSExtensionRequestHandling", "i14"]
+- ["PSo26NSExtensionRequestHandling", "i15"]
+- ["PSo26NSExtensionRequestHandling", "i20"]
+- ["PSo26NSExtensionRequestHandling", "i21"]
+- ["PSo26NSExtensionRequestHandling", "i22"]
+- ["PSo26NSExtensionRequestHandling", "i23"]
+- ["PSo26NSExtensionRequestHandling", "i24"]
+- ["PSo26NSExtensionRequestHandling", "i25"]
+- ["PSo26NSExtensionRequestHandling", "i30"]
+- ["PSo26NSExtensionRequestHandling", "i31"]
+- ["PSo26NSExtensionRequestHandling", "i32"]
+- ["PSo26NSExtensionRequestHandling", "i33"]
+- ["PSo26NSExtensionRequestHandling", "i34"]
+- ["PSo26NSExtensionRequestHandling", "i35"]
+- ["PSo26NSExtensionRequestHandling", "i40"]
+- ["PSo26NSExtensionRequestHandling", "i41"]
+- ["PSo26NSExtensionRequestHandling", "i42"]
+- ["PSo26NSExtensionRequestHandling", "i43"]
+- ["PSo26NSExtensionRequestHandling", "i44"]
+- ["PSo26NSExtensionRequestHandling", "i45"]
+- ["PSo26NSExtensionRequestHandling", "i50"]
+- ["PSo26NSExtensionRequestHandling", "i51"]
+- ["PSo26NSExtensionRequestHandling", "i52"]
+- ["PSo26NSExtensionRequestHandling", "i53"]
+- ["PSo26NSExtensionRequestHandling", "i54"]
+- ["PSo26NSExtensionRequestHandling", "i55"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "r00"]
 - ["PSo26NSExtensionRequestHandling", "r01"]
@@ -1315,11 +1828,20 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "rr54"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Board"]
+- ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGColor"]
 - ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "Point"]
+- ["CSo8NSObject", "TurnIndicator"]
 - ["CSo8NSObject", "UIButton"]
 - !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "blueColor"]
+- ["CSo8NSObject", "board"]
 - !private ["CSo8NSObject", "borderColor"]
 - ["CSo8NSObject", "borderWidth"]
 - ["CSo8NSObject", "c00"]
@@ -1382,8 +1904,49 @@ depends-member:
 - ["CSo8NSObject", "cc43"]
 - ["CSo8NSObject", "cc44"]
 - ["CSo8NSObject", "cc45"]
+- ["CSo8NSObject", "changeColor"]
+- ["CSo8NSObject", "checkTurn"]
 - !private ["CSo8NSObject", "cornerRadius"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "endGame"]
+- ["CSo8NSObject", "firstplay"]
+- ["CSo8NSObject", "i00"]
+- ["CSo8NSObject", "i01"]
+- ["CSo8NSObject", "i02"]
+- ["CSo8NSObject", "i03"]
+- ["CSo8NSObject", "i04"]
+- ["CSo8NSObject", "i05"]
+- ["CSo8NSObject", "i10"]
+- ["CSo8NSObject", "i11"]
+- ["CSo8NSObject", "i12"]
+- ["CSo8NSObject", "i13"]
+- ["CSo8NSObject", "i14"]
+- ["CSo8NSObject", "i15"]
+- ["CSo8NSObject", "i20"]
+- ["CSo8NSObject", "i21"]
+- ["CSo8NSObject", "i22"]
+- ["CSo8NSObject", "i23"]
+- ["CSo8NSObject", "i24"]
+- ["CSo8NSObject", "i25"]
+- ["CSo8NSObject", "i30"]
+- ["CSo8NSObject", "i31"]
+- ["CSo8NSObject", "i32"]
+- ["CSo8NSObject", "i33"]
+- ["CSo8NSObject", "i34"]
+- ["CSo8NSObject", "i35"]
+- ["CSo8NSObject", "i40"]
+- ["CSo8NSObject", "i41"]
+- ["CSo8NSObject", "i42"]
+- ["CSo8NSObject", "i43"]
+- ["CSo8NSObject", "i44"]
+- ["CSo8NSObject", "i45"]
+- ["CSo8NSObject", "i50"]
+- ["CSo8NSObject", "i51"]
+- ["CSo8NSObject", "i52"]
+- ["CSo8NSObject", "i53"]
+- ["CSo8NSObject", "i54"]
+- ["CSo8NSObject", "i55"]
+- !private ["CSo8NSObject", "image"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "layer"]
 - ["CSo8NSObject", "r00"]
@@ -1416,6 +1979,7 @@ depends-member:
 - ["CSo8NSObject", "r52"]
 - ["CSo8NSObject", "r53"]
 - ["CSo8NSObject", "r54"]
+- !private ["CSo8NSObject", "redColor"]
 - ["CSo8NSObject", "rr00"]
 - ["CSo8NSObject", "rr01"]
 - ["CSo8NSObject", "rr02"]
@@ -1446,10 +2010,19 @@ depends-member:
 - ["CSo8NSObject", "rr52"]
 - ["CSo8NSObject", "rr53"]
 - ["CSo8NSObject", "rr54"]
+- !private ["CSo8NSObject", "setTitle"]
 - ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "Board"]
+- ["PSo16NSObjectProtocol", "Bool"]
 - !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "Point"]
+- ["PSo16NSObjectProtocol", "TurnIndicator"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "blueColor"]
+- ["PSo16NSObjectProtocol", "board"]
 - !private ["PSo16NSObjectProtocol", "borderColor"]
 - ["PSo16NSObjectProtocol", "borderWidth"]
 - ["PSo16NSObjectProtocol", "c00"]
@@ -1512,8 +2085,49 @@ depends-member:
 - ["PSo16NSObjectProtocol", "cc43"]
 - ["PSo16NSObjectProtocol", "cc44"]
 - ["PSo16NSObjectProtocol", "cc45"]
+- ["PSo16NSObjectProtocol", "changeColor"]
+- ["PSo16NSObjectProtocol", "checkTurn"]
 - !private ["PSo16NSObjectProtocol", "cornerRadius"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "endGame"]
+- ["PSo16NSObjectProtocol", "firstplay"]
+- ["PSo16NSObjectProtocol", "i00"]
+- ["PSo16NSObjectProtocol", "i01"]
+- ["PSo16NSObjectProtocol", "i02"]
+- ["PSo16NSObjectProtocol", "i03"]
+- ["PSo16NSObjectProtocol", "i04"]
+- ["PSo16NSObjectProtocol", "i05"]
+- ["PSo16NSObjectProtocol", "i10"]
+- ["PSo16NSObjectProtocol", "i11"]
+- ["PSo16NSObjectProtocol", "i12"]
+- ["PSo16NSObjectProtocol", "i13"]
+- ["PSo16NSObjectProtocol", "i14"]
+- ["PSo16NSObjectProtocol", "i15"]
+- ["PSo16NSObjectProtocol", "i20"]
+- ["PSo16NSObjectProtocol", "i21"]
+- ["PSo16NSObjectProtocol", "i22"]
+- ["PSo16NSObjectProtocol", "i23"]
+- ["PSo16NSObjectProtocol", "i24"]
+- ["PSo16NSObjectProtocol", "i25"]
+- ["PSo16NSObjectProtocol", "i30"]
+- ["PSo16NSObjectProtocol", "i31"]
+- ["PSo16NSObjectProtocol", "i32"]
+- ["PSo16NSObjectProtocol", "i33"]
+- ["PSo16NSObjectProtocol", "i34"]
+- ["PSo16NSObjectProtocol", "i35"]
+- ["PSo16NSObjectProtocol", "i40"]
+- ["PSo16NSObjectProtocol", "i41"]
+- ["PSo16NSObjectProtocol", "i42"]
+- ["PSo16NSObjectProtocol", "i43"]
+- ["PSo16NSObjectProtocol", "i44"]
+- ["PSo16NSObjectProtocol", "i45"]
+- ["PSo16NSObjectProtocol", "i50"]
+- ["PSo16NSObjectProtocol", "i51"]
+- ["PSo16NSObjectProtocol", "i52"]
+- ["PSo16NSObjectProtocol", "i53"]
+- ["PSo16NSObjectProtocol", "i54"]
+- ["PSo16NSObjectProtocol", "i55"]
+- !private ["PSo16NSObjectProtocol", "image"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "layer"]
 - ["PSo16NSObjectProtocol", "r00"]
@@ -1546,6 +2160,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "r52"]
 - ["PSo16NSObjectProtocol", "r53"]
 - ["PSo16NSObjectProtocol", "r54"]
+- !private ["PSo16NSObjectProtocol", "redColor"]
 - ["PSo16NSObjectProtocol", "rr00"]
 - ["PSo16NSObjectProtocol", "rr01"]
 - ["PSo16NSObjectProtocol", "rr02"]
@@ -1576,13 +2191,32 @@ depends-member:
 - ["PSo16NSObjectProtocol", "rr52"]
 - ["PSo16NSObjectProtocol", "rr53"]
 - ["PSo16NSObjectProtocol", "rr54"]
+- !private ["PSo16NSObjectProtocol", "setTitle"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "CGColor"]
 - !private ["PSo14NSSecureCoding", "blackColor"]
+- !private ["PSo14NSSecureCoding", "blueColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "redColor"]
+- !private ["Ps13OptionSetType", "Disabled"]
+- !private ["V5Chess5Point", "init"]
+- !private ["Ps16RawRepresentable", "Disabled"]
+- !private ["Ps14SetAlgebraType", "Disabled"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitle"]
+- !private ["PSo12UIAppearance", "image"]
 - !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "setTitle"]
+- ["PSo21UIAppearanceContainer", "Board"]
+- ["PSo21UIAppearanceContainer", "Bool"]
+- !private ["PSo21UIAppearanceContainer", "Point"]
+- ["PSo21UIAppearanceContainer", "TurnIndicator"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "board"]
 - ["PSo21UIAppearanceContainer", "borderWidth"]
 - ["PSo21UIAppearanceContainer", "c00"]
 - ["PSo21UIAppearanceContainer", "c01"]
@@ -1644,7 +2278,48 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "cc43"]
 - ["PSo21UIAppearanceContainer", "cc44"]
 - ["PSo21UIAppearanceContainer", "cc45"]
+- ["PSo21UIAppearanceContainer", "changeColor"]
+- ["PSo21UIAppearanceContainer", "checkTurn"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "endGame"]
+- ["PSo21UIAppearanceContainer", "firstplay"]
+- ["PSo21UIAppearanceContainer", "i00"]
+- ["PSo21UIAppearanceContainer", "i01"]
+- ["PSo21UIAppearanceContainer", "i02"]
+- ["PSo21UIAppearanceContainer", "i03"]
+- ["PSo21UIAppearanceContainer", "i04"]
+- ["PSo21UIAppearanceContainer", "i05"]
+- ["PSo21UIAppearanceContainer", "i10"]
+- ["PSo21UIAppearanceContainer", "i11"]
+- ["PSo21UIAppearanceContainer", "i12"]
+- ["PSo21UIAppearanceContainer", "i13"]
+- ["PSo21UIAppearanceContainer", "i14"]
+- ["PSo21UIAppearanceContainer", "i15"]
+- ["PSo21UIAppearanceContainer", "i20"]
+- ["PSo21UIAppearanceContainer", "i21"]
+- ["PSo21UIAppearanceContainer", "i22"]
+- ["PSo21UIAppearanceContainer", "i23"]
+- ["PSo21UIAppearanceContainer", "i24"]
+- ["PSo21UIAppearanceContainer", "i25"]
+- ["PSo21UIAppearanceContainer", "i30"]
+- ["PSo21UIAppearanceContainer", "i31"]
+- ["PSo21UIAppearanceContainer", "i32"]
+- ["PSo21UIAppearanceContainer", "i33"]
+- ["PSo21UIAppearanceContainer", "i34"]
+- ["PSo21UIAppearanceContainer", "i35"]
+- ["PSo21UIAppearanceContainer", "i40"]
+- ["PSo21UIAppearanceContainer", "i41"]
+- ["PSo21UIAppearanceContainer", "i42"]
+- ["PSo21UIAppearanceContainer", "i43"]
+- ["PSo21UIAppearanceContainer", "i44"]
+- ["PSo21UIAppearanceContainer", "i45"]
+- ["PSo21UIAppearanceContainer", "i50"]
+- ["PSo21UIAppearanceContainer", "i51"]
+- ["PSo21UIAppearanceContainer", "i52"]
+- ["PSo21UIAppearanceContainer", "i53"]
+- ["PSo21UIAppearanceContainer", "i54"]
+- ["PSo21UIAppearanceContainer", "i55"]
+- !private ["PSo21UIAppearanceContainer", "image"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
 - ["PSo21UIAppearanceContainer", "r00"]
@@ -1707,12 +2382,22 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "rr52"]
 - ["PSo21UIAppearanceContainer", "rr53"]
 - ["PSo21UIAppearanceContainer", "rr54"]
+- !private ["PSo21UIAppearanceContainer", "setTitle"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo8UIButton", "layer"]
+- !private ["CSo8UIButton", "setTitle"]
 - !private ["CSo7UIColor", "CGColor"]
 - !private ["CSo7UIColor", "blackColor"]
+- !private ["CSo7UIColor", "blueColor"]
+- !private ["CSo7UIColor", "redColor"]
+- ["PSo18UIContentContainer", "Board"]
+- ["PSo18UIContentContainer", "Bool"]
+- !private ["PSo18UIContentContainer", "Point"]
+- ["PSo18UIContentContainer", "TurnIndicator"]
 - !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- ["PSo18UIContentContainer", "board"]
 - ["PSo18UIContentContainer", "borderWidth"]
 - ["PSo18UIContentContainer", "c00"]
 - ["PSo18UIContentContainer", "c01"]
@@ -1774,7 +2459,47 @@ depends-member:
 - ["PSo18UIContentContainer", "cc43"]
 - ["PSo18UIContentContainer", "cc44"]
 - ["PSo18UIContentContainer", "cc45"]
+- ["PSo18UIContentContainer", "changeColor"]
+- ["PSo18UIContentContainer", "checkTurn"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "endGame"]
+- ["PSo18UIContentContainer", "firstplay"]
+- ["PSo18UIContentContainer", "i00"]
+- ["PSo18UIContentContainer", "i01"]
+- ["PSo18UIContentContainer", "i02"]
+- ["PSo18UIContentContainer", "i03"]
+- ["PSo18UIContentContainer", "i04"]
+- ["PSo18UIContentContainer", "i05"]
+- ["PSo18UIContentContainer", "i10"]
+- ["PSo18UIContentContainer", "i11"]
+- ["PSo18UIContentContainer", "i12"]
+- ["PSo18UIContentContainer", "i13"]
+- ["PSo18UIContentContainer", "i14"]
+- ["PSo18UIContentContainer", "i15"]
+- ["PSo18UIContentContainer", "i20"]
+- ["PSo18UIContentContainer", "i21"]
+- ["PSo18UIContentContainer", "i22"]
+- ["PSo18UIContentContainer", "i23"]
+- ["PSo18UIContentContainer", "i24"]
+- ["PSo18UIContentContainer", "i25"]
+- ["PSo18UIContentContainer", "i30"]
+- ["PSo18UIContentContainer", "i31"]
+- ["PSo18UIContentContainer", "i32"]
+- ["PSo18UIContentContainer", "i33"]
+- ["PSo18UIContentContainer", "i34"]
+- ["PSo18UIContentContainer", "i35"]
+- ["PSo18UIContentContainer", "i40"]
+- ["PSo18UIContentContainer", "i41"]
+- ["PSo18UIContentContainer", "i42"]
+- ["PSo18UIContentContainer", "i43"]
+- ["PSo18UIContentContainer", "i44"]
+- ["PSo18UIContentContainer", "i45"]
+- ["PSo18UIContentContainer", "i50"]
+- ["PSo18UIContentContainer", "i51"]
+- ["PSo18UIContentContainer", "i52"]
+- ["PSo18UIContentContainer", "i53"]
+- ["PSo18UIContentContainer", "i54"]
+- ["PSo18UIContentContainer", "i55"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "r00"]
 - ["PSo18UIContentContainer", "r01"]
@@ -1839,9 +2564,21 @@ depends-member:
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["CSo9UIControl", "layer"]
+- !private ["CSo9UIControl", "setTitle"]
+- !private ["VSC14UIControlState", "Disabled"]
+- !private ["PSo17UICoordinateSpace", "image"]
 - !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "setTitle"]
+- !private ["PSo13UIDynamicItem", "image"]
 - !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "setTitle"]
+- ["PSo18UIFocusEnvironment", "Board"]
+- ["PSo18UIFocusEnvironment", "Bool"]
+- !private ["PSo18UIFocusEnvironment", "Point"]
+- ["PSo18UIFocusEnvironment", "TurnIndicator"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "board"]
 - ["PSo18UIFocusEnvironment", "borderWidth"]
 - ["PSo18UIFocusEnvironment", "c00"]
 - ["PSo18UIFocusEnvironment", "c01"]
@@ -1903,7 +2640,48 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "cc43"]
 - ["PSo18UIFocusEnvironment", "cc44"]
 - ["PSo18UIFocusEnvironment", "cc45"]
+- ["PSo18UIFocusEnvironment", "changeColor"]
+- ["PSo18UIFocusEnvironment", "checkTurn"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "endGame"]
+- ["PSo18UIFocusEnvironment", "firstplay"]
+- ["PSo18UIFocusEnvironment", "i00"]
+- ["PSo18UIFocusEnvironment", "i01"]
+- ["PSo18UIFocusEnvironment", "i02"]
+- ["PSo18UIFocusEnvironment", "i03"]
+- ["PSo18UIFocusEnvironment", "i04"]
+- ["PSo18UIFocusEnvironment", "i05"]
+- ["PSo18UIFocusEnvironment", "i10"]
+- ["PSo18UIFocusEnvironment", "i11"]
+- ["PSo18UIFocusEnvironment", "i12"]
+- ["PSo18UIFocusEnvironment", "i13"]
+- ["PSo18UIFocusEnvironment", "i14"]
+- ["PSo18UIFocusEnvironment", "i15"]
+- ["PSo18UIFocusEnvironment", "i20"]
+- ["PSo18UIFocusEnvironment", "i21"]
+- ["PSo18UIFocusEnvironment", "i22"]
+- ["PSo18UIFocusEnvironment", "i23"]
+- ["PSo18UIFocusEnvironment", "i24"]
+- ["PSo18UIFocusEnvironment", "i25"]
+- ["PSo18UIFocusEnvironment", "i30"]
+- ["PSo18UIFocusEnvironment", "i31"]
+- ["PSo18UIFocusEnvironment", "i32"]
+- ["PSo18UIFocusEnvironment", "i33"]
+- ["PSo18UIFocusEnvironment", "i34"]
+- ["PSo18UIFocusEnvironment", "i35"]
+- ["PSo18UIFocusEnvironment", "i40"]
+- ["PSo18UIFocusEnvironment", "i41"]
+- ["PSo18UIFocusEnvironment", "i42"]
+- ["PSo18UIFocusEnvironment", "i43"]
+- ["PSo18UIFocusEnvironment", "i44"]
+- ["PSo18UIFocusEnvironment", "i45"]
+- ["PSo18UIFocusEnvironment", "i50"]
+- ["PSo18UIFocusEnvironment", "i51"]
+- ["PSo18UIFocusEnvironment", "i52"]
+- ["PSo18UIFocusEnvironment", "i53"]
+- ["PSo18UIFocusEnvironment", "i54"]
+- ["PSo18UIFocusEnvironment", "i55"]
+- !private ["PSo18UIFocusEnvironment", "image"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "layer"]
 - ["PSo18UIFocusEnvironment", "r00"]
@@ -1966,11 +2744,21 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "rr52"]
 - ["PSo18UIFocusEnvironment", "rr53"]
 - ["PSo18UIFocusEnvironment", "rr54"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "image"]
+- ["CSo11UIResponder", "Board"]
+- ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "Point"]
+- ["CSo11UIResponder", "TurnIndicator"]
 - ["CSo11UIResponder", "UIButton"]
 - !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "board"]
 - ["CSo11UIResponder", "borderWidth"]
 - ["CSo11UIResponder", "c00"]
 - ["CSo11UIResponder", "c01"]
@@ -2032,7 +2820,48 @@ depends-member:
 - ["CSo11UIResponder", "cc43"]
 - ["CSo11UIResponder", "cc44"]
 - ["CSo11UIResponder", "cc45"]
+- ["CSo11UIResponder", "changeColor"]
+- ["CSo11UIResponder", "checkTurn"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "endGame"]
+- ["CSo11UIResponder", "firstplay"]
+- ["CSo11UIResponder", "i00"]
+- ["CSo11UIResponder", "i01"]
+- ["CSo11UIResponder", "i02"]
+- ["CSo11UIResponder", "i03"]
+- ["CSo11UIResponder", "i04"]
+- ["CSo11UIResponder", "i05"]
+- ["CSo11UIResponder", "i10"]
+- ["CSo11UIResponder", "i11"]
+- ["CSo11UIResponder", "i12"]
+- ["CSo11UIResponder", "i13"]
+- ["CSo11UIResponder", "i14"]
+- ["CSo11UIResponder", "i15"]
+- ["CSo11UIResponder", "i20"]
+- ["CSo11UIResponder", "i21"]
+- ["CSo11UIResponder", "i22"]
+- ["CSo11UIResponder", "i23"]
+- ["CSo11UIResponder", "i24"]
+- ["CSo11UIResponder", "i25"]
+- ["CSo11UIResponder", "i30"]
+- ["CSo11UIResponder", "i31"]
+- ["CSo11UIResponder", "i32"]
+- ["CSo11UIResponder", "i33"]
+- ["CSo11UIResponder", "i34"]
+- ["CSo11UIResponder", "i35"]
+- ["CSo11UIResponder", "i40"]
+- ["CSo11UIResponder", "i41"]
+- ["CSo11UIResponder", "i42"]
+- ["CSo11UIResponder", "i43"]
+- ["CSo11UIResponder", "i44"]
+- ["CSo11UIResponder", "i45"]
+- ["CSo11UIResponder", "i50"]
+- ["CSo11UIResponder", "i51"]
+- ["CSo11UIResponder", "i52"]
+- ["CSo11UIResponder", "i53"]
+- ["CSo11UIResponder", "i54"]
+- ["CSo11UIResponder", "i55"]
+- !private ["CSo11UIResponder", "image"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "layer"]
 - ["CSo11UIResponder", "r00"]
@@ -2095,8 +2924,15 @@ depends-member:
 - ["CSo11UIResponder", "rr52"]
 - ["CSo11UIResponder", "rr53"]
 - ["CSo11UIResponder", "rr54"]
+- !private ["CSo11UIResponder", "setTitle"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "Board"]
+- ["PSo16UIStateRestoring", "Bool"]
+- !private ["PSo16UIStateRestoring", "Point"]
+- ["PSo16UIStateRestoring", "TurnIndicator"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- ["PSo16UIStateRestoring", "board"]
 - ["PSo16UIStateRestoring", "borderWidth"]
 - ["PSo16UIStateRestoring", "c00"]
 - ["PSo16UIStateRestoring", "c01"]
@@ -2158,7 +2994,47 @@ depends-member:
 - ["PSo16UIStateRestoring", "cc43"]
 - ["PSo16UIStateRestoring", "cc44"]
 - ["PSo16UIStateRestoring", "cc45"]
+- ["PSo16UIStateRestoring", "changeColor"]
+- ["PSo16UIStateRestoring", "checkTurn"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "endGame"]
+- ["PSo16UIStateRestoring", "firstplay"]
+- ["PSo16UIStateRestoring", "i00"]
+- ["PSo16UIStateRestoring", "i01"]
+- ["PSo16UIStateRestoring", "i02"]
+- ["PSo16UIStateRestoring", "i03"]
+- ["PSo16UIStateRestoring", "i04"]
+- ["PSo16UIStateRestoring", "i05"]
+- ["PSo16UIStateRestoring", "i10"]
+- ["PSo16UIStateRestoring", "i11"]
+- ["PSo16UIStateRestoring", "i12"]
+- ["PSo16UIStateRestoring", "i13"]
+- ["PSo16UIStateRestoring", "i14"]
+- ["PSo16UIStateRestoring", "i15"]
+- ["PSo16UIStateRestoring", "i20"]
+- ["PSo16UIStateRestoring", "i21"]
+- ["PSo16UIStateRestoring", "i22"]
+- ["PSo16UIStateRestoring", "i23"]
+- ["PSo16UIStateRestoring", "i24"]
+- ["PSo16UIStateRestoring", "i25"]
+- ["PSo16UIStateRestoring", "i30"]
+- ["PSo16UIStateRestoring", "i31"]
+- ["PSo16UIStateRestoring", "i32"]
+- ["PSo16UIStateRestoring", "i33"]
+- ["PSo16UIStateRestoring", "i34"]
+- ["PSo16UIStateRestoring", "i35"]
+- ["PSo16UIStateRestoring", "i40"]
+- ["PSo16UIStateRestoring", "i41"]
+- ["PSo16UIStateRestoring", "i42"]
+- ["PSo16UIStateRestoring", "i43"]
+- ["PSo16UIStateRestoring", "i44"]
+- ["PSo16UIStateRestoring", "i45"]
+- ["PSo16UIStateRestoring", "i50"]
+- ["PSo16UIStateRestoring", "i51"]
+- ["PSo16UIStateRestoring", "i52"]
+- ["PSo16UIStateRestoring", "i53"]
+- ["PSo16UIStateRestoring", "i54"]
+- ["PSo16UIStateRestoring", "i55"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "r00"]
 - ["PSo16UIStateRestoring", "r01"]
@@ -2222,7 +3098,13 @@ depends-member:
 - ["PSo16UIStateRestoring", "rr54"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "Board"]
+- ["PSo18UITraitEnvironment", "Bool"]
+- !private ["PSo18UITraitEnvironment", "Point"]
+- ["PSo18UITraitEnvironment", "TurnIndicator"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "board"]
 - ["PSo18UITraitEnvironment", "borderWidth"]
 - ["PSo18UITraitEnvironment", "c00"]
 - ["PSo18UITraitEnvironment", "c01"]
@@ -2284,7 +3166,48 @@ depends-member:
 - ["PSo18UITraitEnvironment", "cc43"]
 - ["PSo18UITraitEnvironment", "cc44"]
 - ["PSo18UITraitEnvironment", "cc45"]
+- ["PSo18UITraitEnvironment", "changeColor"]
+- ["PSo18UITraitEnvironment", "checkTurn"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "endGame"]
+- ["PSo18UITraitEnvironment", "firstplay"]
+- ["PSo18UITraitEnvironment", "i00"]
+- ["PSo18UITraitEnvironment", "i01"]
+- ["PSo18UITraitEnvironment", "i02"]
+- ["PSo18UITraitEnvironment", "i03"]
+- ["PSo18UITraitEnvironment", "i04"]
+- ["PSo18UITraitEnvironment", "i05"]
+- ["PSo18UITraitEnvironment", "i10"]
+- ["PSo18UITraitEnvironment", "i11"]
+- ["PSo18UITraitEnvironment", "i12"]
+- ["PSo18UITraitEnvironment", "i13"]
+- ["PSo18UITraitEnvironment", "i14"]
+- ["PSo18UITraitEnvironment", "i15"]
+- ["PSo18UITraitEnvironment", "i20"]
+- ["PSo18UITraitEnvironment", "i21"]
+- ["PSo18UITraitEnvironment", "i22"]
+- ["PSo18UITraitEnvironment", "i23"]
+- ["PSo18UITraitEnvironment", "i24"]
+- ["PSo18UITraitEnvironment", "i25"]
+- ["PSo18UITraitEnvironment", "i30"]
+- ["PSo18UITraitEnvironment", "i31"]
+- ["PSo18UITraitEnvironment", "i32"]
+- ["PSo18UITraitEnvironment", "i33"]
+- ["PSo18UITraitEnvironment", "i34"]
+- ["PSo18UITraitEnvironment", "i35"]
+- ["PSo18UITraitEnvironment", "i40"]
+- ["PSo18UITraitEnvironment", "i41"]
+- ["PSo18UITraitEnvironment", "i42"]
+- ["PSo18UITraitEnvironment", "i43"]
+- ["PSo18UITraitEnvironment", "i44"]
+- ["PSo18UITraitEnvironment", "i45"]
+- ["PSo18UITraitEnvironment", "i50"]
+- ["PSo18UITraitEnvironment", "i51"]
+- ["PSo18UITraitEnvironment", "i52"]
+- ["PSo18UITraitEnvironment", "i53"]
+- ["PSo18UITraitEnvironment", "i54"]
+- ["PSo18UITraitEnvironment", "i55"]
+- !private ["PSo18UITraitEnvironment", "image"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "layer"]
 - ["PSo18UITraitEnvironment", "r00"]
@@ -2347,12 +3270,22 @@ depends-member:
 - ["PSo18UITraitEnvironment", "rr52"]
 - ["PSo18UITraitEnvironment", "rr53"]
 - ["PSo18UITraitEnvironment", "rr54"]
+- !private ["PSo18UITraitEnvironment", "setTitle"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "image"]
 - !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "setTitle"]
+- ["CSo16UIViewController", "Board"]
+- ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "Point"]
+- ["CSo16UIViewController", "TurnIndicator"]
 - ["CSo16UIViewController", "UIButton"]
 - !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "board"]
 - ["CSo16UIViewController", "borderWidth"]
 - ["CSo16UIViewController", "c00"]
 - ["CSo16UIViewController", "c01"]
@@ -2414,7 +3347,47 @@ depends-member:
 - ["CSo16UIViewController", "cc43"]
 - ["CSo16UIViewController", "cc44"]
 - ["CSo16UIViewController", "cc45"]
+- ["CSo16UIViewController", "changeColor"]
+- ["CSo16UIViewController", "checkTurn"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "endGame"]
+- ["CSo16UIViewController", "firstplay"]
+- ["CSo16UIViewController", "i00"]
+- ["CSo16UIViewController", "i01"]
+- ["CSo16UIViewController", "i02"]
+- ["CSo16UIViewController", "i03"]
+- ["CSo16UIViewController", "i04"]
+- ["CSo16UIViewController", "i05"]
+- ["CSo16UIViewController", "i10"]
+- ["CSo16UIViewController", "i11"]
+- ["CSo16UIViewController", "i12"]
+- ["CSo16UIViewController", "i13"]
+- ["CSo16UIViewController", "i14"]
+- ["CSo16UIViewController", "i15"]
+- ["CSo16UIViewController", "i20"]
+- ["CSo16UIViewController", "i21"]
+- ["CSo16UIViewController", "i22"]
+- ["CSo16UIViewController", "i23"]
+- ["CSo16UIViewController", "i24"]
+- ["CSo16UIViewController", "i25"]
+- ["CSo16UIViewController", "i30"]
+- ["CSo16UIViewController", "i31"]
+- ["CSo16UIViewController", "i32"]
+- ["CSo16UIViewController", "i33"]
+- ["CSo16UIViewController", "i34"]
+- ["CSo16UIViewController", "i35"]
+- ["CSo16UIViewController", "i40"]
+- ["CSo16UIViewController", "i41"]
+- ["CSo16UIViewController", "i42"]
+- ["CSo16UIViewController", "i43"]
+- ["CSo16UIViewController", "i44"]
+- ["CSo16UIViewController", "i45"]
+- ["CSo16UIViewController", "i50"]
+- ["CSo16UIViewController", "i51"]
+- ["CSo16UIViewController", "i52"]
+- ["CSo16UIViewController", "i53"]
+- ["CSo16UIViewController", "i54"]
+- ["CSo16UIViewController", "i55"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "r00"]
 - ["CSo16UIViewController", "r01"]
@@ -2478,11 +3451,27 @@ depends-member:
 - ["CSo16UIViewController", "rr54"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "init"]
 - !private ["Ps24_ColorLiteralConvertible", "CGColor"]
 - !private ["Ps24_ColorLiteralConvertible", "blackColor"]
+- !private ["Ps24_ColorLiteralConvertible", "blueColor"]
+- !private ["Ps24_ColorLiteralConvertible", "redColor"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "image"]
+- ["Ps12_Reflectable", "init"]
 - !private ["Ps12_Reflectable", "layer"]
+- !private ["Ps12_Reflectable", "setTitle"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- "C5Chess5Board"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
 - !private "CSo7CALayer"
 - !private "PSo13CAMediaTiming"
 - "V12CoreGraphics7CGFloat"
@@ -2498,6 +3487,10 @@ depends-nominal:
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
+- !private "Ps13OptionSetType"
+- !private "V5Chess5Point"
+- !private "Ps16RawRepresentable"
+- !private "Ps14SetAlgebraType"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -2505,16 +3498,22 @@ depends-nominal:
 - !private "CSo7UIColor"
 - "PSo18UIContentContainer"
 - !private "CSo9UIControl"
+- !private "VSC14UIControlState"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
+- "Ps33_BuiltinBooleanLiteralConvertible"
 - !private "Ps24_ColorLiteralConvertible"
-- !private "Ps12_Reflectable"
+- !private "Ps24_ImageLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -2525,4 +3524,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "92065f93cba14ac4562d55beac77e97b"
+interface-hash: "12f929056708a378832bd26788c46c49"

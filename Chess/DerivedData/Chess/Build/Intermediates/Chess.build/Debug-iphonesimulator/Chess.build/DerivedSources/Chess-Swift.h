@@ -130,9 +130,11 @@ SWIFT_CLASS("_TtC5Chess19ChessViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
 
 SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @interface DoublePlayerUIViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified TurnIndicator;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r00;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r01;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r02;
@@ -193,6 +195,42 @@ SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified c43;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified c44;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified c45;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i00;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i01;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i02;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i03;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i04;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i05;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i10;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i11;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i12;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i13;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i14;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i15;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i20;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i21;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i22;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i23;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i24;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i25;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i30;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i31;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i32;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i33;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i34;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i35;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i40;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i41;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i42;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i43;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i44;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i45;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i50;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i51;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i52;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i53;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i54;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i55;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)rr00:(UIButton * _Nonnull)sender;

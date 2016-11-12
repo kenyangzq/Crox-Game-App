@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C5Chess19ChessViewController", ""]
 provides-dynamic-lookup:
-- "Tutorial"
-- "Tutorial"
 - "viewDidLoad"
 - "SinglePlayer"
-- "DoublePlayer"
 - "Single"
 - "Double"
+- "DoublePlayer"
+- "Tutorial"
+- "Tutorial"
 depends-top-level:
-- "ChessViewController"
-- !private "StringLiteralType"
-- !private "UIModalTransitionStyle"
-- "UIViewController"
-- !private "UIStoryboard"
-- !private "CGFloat"
 - !private "BooleanLiteralType"
 - "UIButton"
+- !private "UIModalTransitionStyle"
+- !private "CGFloat"
+- !private "UIStoryboard"
+- "ChessViewController"
+- !private "StringLiteralType"
+- "UIViewController"
 depends-member:
 - ["Ps9AnyObject", "Double"]
 - ["Ps9AnyObject", "DoublePlayer"]

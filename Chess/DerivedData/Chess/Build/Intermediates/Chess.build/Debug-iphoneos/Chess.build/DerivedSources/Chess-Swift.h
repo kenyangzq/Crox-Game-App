@@ -130,9 +130,11 @@ SWIFT_CLASS("_TtC5Chess19ChessViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
 
 SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @interface DoublePlayerUIViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified TurnIndicator;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r00;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r01;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r02;
@@ -195,6 +197,66 @@ SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified c45;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (IBAction)rr00:(UIButton * _Nonnull)sender;
+- (IBAction)rr01:(UIButton * _Nonnull)sender;
+- (IBAction)rr02:(UIButton * _Nonnull)sender;
+- (IBAction)rr03:(UIButton * _Nonnull)sender;
+- (IBAction)rr04:(UIButton * _Nonnull)sender;
+- (IBAction)rr10:(UIButton * _Nonnull)sender;
+- (IBAction)rr11:(UIButton * _Nonnull)sender;
+- (IBAction)rr12:(UIButton * _Nonnull)sender;
+- (IBAction)rr13:(UIButton * _Nonnull)sender;
+- (IBAction)rr14:(UIButton * _Nonnull)sender;
+- (IBAction)rr20:(UIButton * _Nonnull)sender;
+- (IBAction)rr21:(UIButton * _Nonnull)sender;
+- (IBAction)rr22:(UIButton * _Nonnull)sender;
+- (IBAction)rr23:(UIButton * _Nonnull)sender;
+- (IBAction)rr24:(UIButton * _Nonnull)sender;
+- (IBAction)rr30:(UIButton * _Nonnull)sender;
+- (IBAction)rr31:(UIButton * _Nonnull)sender;
+- (IBAction)rr32:(UIButton * _Nonnull)sender;
+- (IBAction)rr33:(UIButton * _Nonnull)sender;
+- (IBAction)rr34:(UIButton * _Nonnull)sender;
+- (IBAction)rr40:(UIButton * _Nonnull)sender;
+- (IBAction)rr41:(UIButton * _Nonnull)sender;
+- (IBAction)rr42:(UIButton * _Nonnull)sender;
+- (IBAction)rr43:(UIButton * _Nonnull)sender;
+- (IBAction)rr44:(UIButton * _Nonnull)sender;
+- (IBAction)rr50:(UIButton * _Nonnull)sender;
+- (IBAction)rr51:(UIButton * _Nonnull)sender;
+- (IBAction)rr52:(UIButton * _Nonnull)sender;
+- (IBAction)rr53:(UIButton * _Nonnull)sender;
+- (IBAction)rr54:(UIButton * _Nonnull)sender;
+- (IBAction)cc00:(UIButton * _Nonnull)sender;
+- (IBAction)cc01:(UIButton * _Nonnull)sender;
+- (IBAction)cc02:(UIButton * _Nonnull)sender;
+- (IBAction)cc03:(UIButton * _Nonnull)sender;
+- (IBAction)cc04:(UIButton * _Nonnull)sender;
+- (IBAction)cc05:(UIButton * _Nonnull)sender;
+- (IBAction)cc10:(UIButton * _Nonnull)sender;
+- (IBAction)cc11:(UIButton * _Nonnull)sender;
+- (IBAction)cc12:(UIButton * _Nonnull)sender;
+- (IBAction)cc13:(UIButton * _Nonnull)sender;
+- (IBAction)cc14:(UIButton * _Nonnull)sender;
+- (IBAction)cc15:(UIButton * _Nonnull)sender;
+- (IBAction)cc20:(UIButton * _Nonnull)sender;
+- (IBAction)cc21:(UIButton * _Nonnull)sender;
+- (IBAction)cc22:(UIButton * _Nonnull)sender;
+- (IBAction)cc23:(UIButton * _Nonnull)sender;
+- (IBAction)cc24:(UIButton * _Nonnull)sender;
+- (IBAction)cc25:(UIButton * _Nonnull)sender;
+- (IBAction)cc30:(UIButton * _Nonnull)sender;
+- (IBAction)cc31:(UIButton * _Nonnull)sender;
+- (IBAction)cc32:(UIButton * _Nonnull)sender;
+- (IBAction)cc33:(UIButton * _Nonnull)sender;
+- (IBAction)cc34:(UIButton * _Nonnull)sender;
+- (IBAction)cc35:(UIButton * _Nonnull)sender;
+- (IBAction)cc40:(UIButton * _Nonnull)sender;
+- (IBAction)cc41:(UIButton * _Nonnull)sender;
+- (IBAction)cc42:(UIButton * _Nonnull)sender;
+- (IBAction)cc43:(UIButton * _Nonnull)sender;
+- (IBAction)cc44:(UIButton * _Nonnull)sender;
+- (IBAction)cc45:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -130,9 +130,11 @@ SWIFT_CLASS("_TtC5Chess19ChessViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
 
 SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @interface DoublePlayerUIViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified TurnIndicator;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r00;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r01;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified r02;

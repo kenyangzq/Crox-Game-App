@@ -9,8 +9,13 @@
 import Foundation
 
 
+
 struct Point {
     var x:Int = 0, y:Int = 0
+    init(a: Int, b:Int) {
+        x = a
+        y = b
+    }
 }
 
 
@@ -32,6 +37,7 @@ class Board {
     private var player2Edges = [[Point]]()
     private var player1IsPlaying = true
     
+    //record the last move of both players
     private var player1LastMove = [Point]()
     private var player2LastMove = [Point]()
     
@@ -67,6 +73,9 @@ class Board {
     }
     
     
+    
+    
+    
     // internal function for controller
     // clean the whole board and reset the parameters
     //
@@ -82,7 +91,9 @@ class Board {
     
     
     
-    
+    // add the edge into the player's set of edges
+    // union any connected set of edges
+    //
     private func unionEdges(point1: Point, point2: Point) {
         var edges = player1IsPlaying ? player1Edges : player2Edges
         
@@ -131,6 +142,8 @@ class Board {
     //                       2 play the whole board
     //                       3 one entire row of vertical edges belong to player2 or 
     //                         one entire column of horizontal edges belong to player1 // to be implemented
+    //
+    // always the one who plays the current move wins, so no need to indicate who's the winner
     //
     private func endOfGame() -> Bool {
         
