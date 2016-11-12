@@ -35,6 +35,9 @@ class Board {
     //
     private var player1Edges = [[Point]]()
     private var player2Edges = [[Point]]()
+    
+    //set 0 as moving upward, 1 as moving rightwarad, 2 as moving downward and 3 as moving leftward
+    private var dot = Array<Array<Array<Bool>>>(count: 6, repeatedValue: Array<Array<Bool>>(count: 6, repeatedValue: Array<Bool>(count: 4, repeatedValue: true)))
     private var player1IsPlaying = true
     
     //record the last move of both players
@@ -58,9 +61,25 @@ class Board {
             player1LastMove = [p1, p2]
         }else{
             player2LastMove = [p1, p2]
+            if (p2.x == p1.x + 1) {
+                dot[p1.x][p1.y][2] = false;
+                dot[p2.x][p2.y][0] = false;
+            }
+            if (p2.x == p1.x - 1) {
+                dot[p1.x][p1.y][0] = false;
+                dot[p2.x][p2.y][2] = false;
+            }
+            if (p2.y == p1.y + 1) {
+                dot[p1.x][p1.y][1] = false;
+                dot[p2.x][p2.y][3] = false;
+            }
+            if (p2.y == p1.y - 1) {
+                dot[p1.x][p1.y][3] = false;
+                dot[p2.x][p2.y][1] = false;
+            }
         }
         
-        let endornot =  (numOfMoves >= 9 && (endOfGame()))
+        let endornot =  (numOfMoves >= 8 && (endOfGame()))
         
         player1IsPlaying = !player1IsPlaying
         numOfMoves += 1
@@ -233,6 +252,38 @@ class Board {
                     return true
                 }
             }
+            for i in 0...5 {
+
+                var viable = [Point]()
+                let start = Point(a: i,b: 0)
+                var s = -1, e = 0
+                viable.append(start)
+                while (s < e) {
+                    s = s + 1
+                    let now = viable[s] as Point
+                    for j in 0...3 {
+                        if (dot[now.x][now.y][j]) {
+                            var f = true
+                            var newone = now
+                            if (j == 0) {newone = Point(a: now.x - 1, b: now.y)}
+                            if (j == 1) {newone = Point(a: now.x, b: now.y + 1)}
+                            if (j == 2) {newone = Point(a: now.x + 1, b: now.y)}
+                            if (j == 3) {newone = Point(a: now.x, b: now.y - 1)}
+                            if (newone.x < 0 || newone.y < 0 || newone.x > 5 || newone.y > 5) {break}
+                            
+                            for k in 0...e {
+                                if (newone == viable[k]) {f = false}
+                            }
+                            if (f) {
+                                if (newone.x == 5) {return false}
+                                viable.append(newone)
+                                e = e + 1
+                            }
+                        }
+                    }
+                }
+            }
+            return true
         }
         return false
     }

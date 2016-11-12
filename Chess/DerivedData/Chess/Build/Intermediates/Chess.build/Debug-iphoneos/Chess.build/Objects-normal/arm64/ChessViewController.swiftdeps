@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C5Chess19ChessViewController", ""]
 provides-dynamic-lookup:
+- "DoublePlayer"
 - "Double"
 - "viewDidLoad"
-- "Single"
-- "DoublePlayer"
-- "Tutorial"
-- "Tutorial"
 - "SinglePlayer"
+- "Tutorial"
+- "Tutorial"
+- "Single"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "UIButton"
-- !private "UIStoryboard"
-- !private "CGFloat"
-- !private "UIModalTransitionStyle"
-- !private "StringLiteralType"
 - "UIViewController"
+- !private "StringLiteralType"
 - "ChessViewController"
+- !private "UIModalTransitionStyle"
+- !private "BooleanLiteralType"
+- !private "UIStoryboard"
+- "UIButton"
+- !private "CGFloat"
 depends-member:
 - ["Ps9AnyObject", "Double"]
 - ["Ps9AnyObject", "DoublePlayer"]
@@ -100,6 +100,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "presentViewController"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CrossDissolve"]
 - ["Ps9Equatable", "Double"]
 - ["Ps9Equatable", "DoublePlayer"]
 - !private ["Ps9Equatable", "PartialCurl"]
@@ -116,6 +117,7 @@ depends-member:
 - !private ["Ps9Equatable", "presentViewController"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CrossDissolve"]
 - ["Ps8Hashable", "Double"]
 - ["Ps8Hashable", "DoublePlayer"]
 - !private ["Ps8Hashable", "PartialCurl"]
@@ -190,6 +192,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "presentViewController"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["Ps16RawRepresentable", "CrossDissolve"]
 - !private ["Ps16RawRepresentable", "PartialCurl"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
 - !private ["PSo12UIAppearance", "layer"]
@@ -235,6 +238,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "presentViewController"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["OSC22UIModalTransitionStyle", "CrossDissolve"]
 - !private ["OSC22UIModalTransitionStyle", "PartialCurl"]
 - !private ["CSo11UIResponder", "CGFloat"]
 - ["CSo11UIResponder", "Double"]

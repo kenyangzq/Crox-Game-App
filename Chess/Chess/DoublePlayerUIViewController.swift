@@ -202,10 +202,10 @@ class DoublePlayerUIViewController: UIViewController {
         if (f) {
             if player {
                 let winner = NSUserDefaults()
-                winner.setValue("1", forKey: "winner")
+                winner.setValue("PLAYER 1", forKey: "winner")
             } else {
                 let winner = NSUserDefaults()
-                winner.setValue("2", forKey: "winner")
+                winner.setValue("PLAYER 2", forKey: "winner")
             }
             let storyboard = UIStoryboard(name: "Main", bundle:nil)
             let viewController = storyboard.instantiateViewControllerWithIdentifier("End") as UIViewController

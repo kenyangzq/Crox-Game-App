@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BE673EA31DD703D400891117 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE673EA21DD703D400891117 /* Board.swift */; };
 		BE673EA71DD7921300891117 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE673EA61DD7921300891117 /* MenuViewController.swift */; };
+		BE673EA91DD7B64B00891117 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE673EA81DD7B64B00891117 /* TutorialViewController.swift */; };
+		BE673EAB1DD7C7EB00891117 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE673EAA1DD7C7EB00891117 /* EndViewController.swift */; };
 		BEDD9FF91DD6D7C700995D89 /* DoublePlayerUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD9FF81DD6D7C700995D89 /* DoublePlayerUIViewController.swift */; };
 		BEDEFA521DD6C3BE005D81B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */; };
 		BEDEFA541DD6C3BE005D81B1 /* ChessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEFA531DD6C3BE005D81B1 /* ChessViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		BE673EA21DD703D400891117 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		BE673EA61DD7921300891117 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BE673EA81DD7B64B00891117 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		BE673EAA1DD7C7EB00891117 /* EndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
 		BEDD9FF81DD6D7C700995D89 /* DoublePlayerUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoublePlayerUIViewController.swift; sourceTree = "<group>"; };
 		BEDEFA4E1DD6C3BE005D81B1 /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				BE673EA21DD703D400891117 /* Board.swift */,
 				BEDD9FF81DD6D7C700995D89 /* DoublePlayerUIViewController.swift */,
 				BEDEFA551DD6C3BE005D81B1 /* Main.storyboard */,
+				BE673EA81DD7B64B00891117 /* TutorialViewController.swift */,
+				BE673EAA1DD7C7EB00891117 /* EndViewController.swift */,
 			);
 			path = Chess;
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 				BEDEFA541DD6C3BE005D81B1 /* ChessViewController.swift in Sources */,
 				BE673EA71DD7921300891117 /* MenuViewController.swift in Sources */,
 				BEDEFA521DD6C3BE005D81B1 /* AppDelegate.swift in Sources */,
+				BE673EAB1DD7C7EB00891117 /* EndViewController.swift in Sources */,
 				BE673EA31DD703D400891117 /* Board.swift in Sources */,
+				BE673EA91DD7B64B00891117 /* TutorialViewController.swift in Sources */,
 				BEDD9FF91DD6D7C700995D89 /* DoublePlayerUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

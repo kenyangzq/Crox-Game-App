@@ -299,12 +299,46 @@ SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+
+SWIFT_CLASS("_TtC5Chess17EndViewController")
+@interface EndViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified player;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified restart;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified main;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)Restart:(UIButton * _Nonnull)sender;
+- (IBAction)MainMenu:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC5Chess18MenuViewController")
 @interface MenuViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified main;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified restart;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified back;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)MainMenu:(UIButton * _Nonnull)sender;
+- (IBAction)Restart:(UIButton * _Nonnull)sender;
+- (IBAction)Back:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Chess22TutorialViewController")
+@interface TutorialViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified display;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified ratio;
+- (IBAction)MainMenu:(UIButton * _Nonnull)sender;
+- (IBAction)Next:(UIButton * _Nonnull)sender;
+- (IBAction)Back:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -28,11 +28,17 @@ class ChessViewController: UIViewController {
     @IBAction func DoublePlayer(sender: UIButton) {
         let sb = UIStoryboard(name: "Main", bundle: nil);
         let vc = sb.instantiateViewControllerWithIdentifier("Double") as UIViewController
-        vc.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+        vc.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
         self.presentViewController(vc, animated: true, completion: nil)
     }
 
     @IBAction func Tutorial(sender: UIButton) {
+        let sb = UIStoryboard(name: "Main", bundle: nil);
+        let vc = sb.instantiateViewControllerWithIdentifier("Tutorial") as UIViewController
+        vc.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+        self.presentViewController(vc, animated: true, completion: nil)
+
+        
     }
 
 }
