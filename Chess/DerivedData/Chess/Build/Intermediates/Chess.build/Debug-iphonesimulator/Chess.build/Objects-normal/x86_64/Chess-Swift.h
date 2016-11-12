@@ -231,7 +231,9 @@ SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i53;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i54;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i55;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Menu;
 - (void)viewDidLoad;
+- (IBAction)Menu:(UIButton * _Nonnull)sender;
 - (void)didReceiveMemoryWarning;
 - (IBAction)rr00:(UIButton * _Nonnull)sender;
 - (IBAction)rr01:(UIButton * _Nonnull)sender;
@@ -293,6 +295,16 @@ SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 - (IBAction)cc43:(UIButton * _Nonnull)sender;
 - (IBAction)cc44:(UIButton * _Nonnull)sender;
 - (IBAction)cc45:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Chess18MenuViewController")
+@interface MenuViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)MainMenu:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -6,187 +6,193 @@ provides-nominal:
 provides-member:
 - ["C5Chess28DoublePlayerUIViewController", ""]
 provides-dynamic-lookup:
-- "r14"
-- "i45"
-- "c35"
-- "c00"
-- "rr40"
-- "c34"
-- "c02"
-- "c01"
-- "rr33"
-- "cc43"
-- "r13"
-- "c40"
-- "rr24"
-- "i44"
-- "c03"
-- "rr51"
-- "cc41"
-- "i43"
-- "cc35"
-- "rr31"
-- "r12"
-- "rr53"
-- "c04"
-- "r53"
-- "cc00"
-- "rr10"
-- "i52"
-- "i51"
-- "r21"
-- "cc02"
-- "rr12"
-- "c41"
-- "c05"
-- "rr21"
-- "c43"
-- "r20"
-- "r54"
-- "cc10"
-- "c42"
-- "cc45"
-- "c10"
-- "rr14"
-- "i50"
-- "cc04"
-- "i21"
-- "cc15"
-- "c44"
-- "c11"
-- "cc13"
-- "r50"
-- "r03"
-- "cc21"
-- "r51"
-- "i54"
-- "i22"
-- "cc11"
-- "c12"
-- "i53"
-- "r02"
-- "c13"
-- "c45"
-- "r52"
-- "rr00"
-- "rr02"
-- "cc33"
-- "i24"
-- "r11"
-- "i01"
-- "c14"
-- "i00"
-- "cc31"
-- "r43"
-- "r10"
-- "i02"
-- "cc23"
 - "r44"
-- "rr44"
-- "c15"
-- "i55"
-- "i23"
-- "rr42"
-- "r04"
-- "cc25"
-- "rr34"
-- "viewDidLoad"
-- "c20"
-- "i30"
-- "r40"
+- "i45"
 - "rr32"
-- "i31"
-- "i03"
-- "rr22"
-- "i25"
-- "cc42"
-- "r41"
-- "c21"
-- "didReceiveMemoryWarning"
-- "c22"
-- "rr04"
-- "rr52"
-- "cc40"
-- "r42"
-- "i04"
-- "rr30"
-- "i33"
-- "i10"
-- "r32"
-- "rr54"
-- "r01"
-- "i05"
-- "rr23"
-- "r33"
-- "c23"
-- "cc01"
-- "rr11"
-- "c24"
-- "rr20"
-- "cc05"
-- "i11"
-- "r00"
-- "rr13"
-- "cc44"
-- "TurnIndicator"
-- "r34"
-- "cc03"
-- "i32"
-- "cc14"
-- "c25"
-- "r30"
-- "cc20"
-- "c30"
-- "i12"
-- "i40"
-- "cc12"
-- "cc22"
-- "i14"
-- "r31"
-- "i34"
-- "i35"
-- "c31"
-- "i13"
-- "c32"
-- "r22"
-- "i42"
-- "rr01"
-- "cc34"
-- "rr03"
-- "i15"
-- "rr50"
-- "r23"
-- "cc32"
-- "cc24"
-- "c33"
-- "rr43"
-- "cc30"
-- "i20"
-- "rr41"
 - "r24"
+- "i12"
+- "cc44"
+- "rr23"
+- "c25"
+- "rr34"
+- "r43"
+- "i11"
+- "i50"
+- "r50"
+- "cc42"
+- "i13"
+- "rr14"
+- "rr41"
+- "rr21"
+- "i44"
+- "c30"
+- "r23"
+- "r42"
+- "rr43"
+- "r51"
+- "rr03"
+- "i05"
+- "r41"
+- "cc32"
+- "r52"
+- "rr52"
+- "c22"
+- "i43"
+- "r22"
+- "cc30"
+- "rr01"
+- "cc01"
+- "rr12"
+- "rr50"
+- "r53"
 - "i41"
+- "c23"
+- "r20"
+- "cc40"
+- "cc34"
+- "rr54"
+- "rr10"
+- "i42"
+- "i10"
+- "r21"
+- "c24"
+- "r54"
+- "cc12"
+- "r34"
+- "cc14"
+- "i21"
+- "c00"
+- "cc10"
+- "cc20"
+- "i55"
+- "c34"
+- "i20"
+- "r40"
+- "TurnIndicator"
+- "i53"
+- "i22"
+- "r33"
+- "c35"
+- "cc02"
+- "cc22"
+- "i54"
+- "cc24"
+- "cc04"
+- "c31"
+- "c03"
+- "i52"
+- "c02"
+- "r32"
+- "i14"
+- "r30"
+- "c32"
+- "i15"
+- "i51"
+- "c01"
+- "rr30"
+- "r31"
+- "c33"
+- "r03"
+- "rr31"
+- "c43"
+- "i30"
+- "rr24"
+- "cc43"
+- "rr33"
+- "rr22"
+- "c05"
+- "r02"
+- "didReceiveMemoryWarning"
+- "rr20"
+- "r04"
+- "rr13"
+- "c44"
+- "c04"
+- "rr40"
+- "c45"
+- "i31"
+- "rr42"
+- "cc45"
+- "rr51"
+- "c12"
+- "rr02"
+- "rr00"
+- "r00"
+- "c40"
+- "cc33"
+- "i23"
+- "c41"
+- "rr44"
+- "rr11"
+- "cc00"
+- "c11"
+- "cc31"
+- "i25"
+- "viewDidLoad"
+- "Menu"
+- "Menu"
+- "cc41"
+- "r01"
+- "c10"
+- "rr53"
+- "cc35"
+- "i24"
+- "c42"
+- "rr04"
+- "i02"
+- "cc13"
+- "r13"
+- "cc15"
+- "i35"
+- "cc21"
+- "c14"
+- "cc11"
+- "cc23"
+- "cc03"
+- "i03"
+- "c13"
+- "cc25"
+- "r14"
+- "i04"
+- "cc05"
+- "i40"
+- "i33"
+- "c21"
+- "r10"
+- "i32"
+- "i00"
+- "r12"
+- "c20"
+- "i01"
+- "i34"
+- "c15"
+- "r11"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "UIViewController"
-- "CGFloat"
-- "Bool"
-- !private "UIColor"
-- "UIImageView"
+- !private "UIStoryboard"
 - "Board"
 - "DoublePlayerUIViewController"
-- !private "UIImage"
-- !private "Point"
+- "UIViewController"
 - !private "StringLiteralType"
-- !private "!"
+- !private "Bool"
+- !private "UIModalTransitionStyle"
+- !private "Point"
+- !private "UIImage"
+- "CGFloat"
 - "UIButton"
+- !private "UIColor"
+- "UIImageView"
+- !private "!"
+- "BooleanLiteralType"
 depends-member:
 - ["Ps9AnyObject", "Board"]
-- ["Ps9AnyObject", "Bool"]
 - !private ["Ps9AnyObject", "CGColor"]
+- ["Ps9AnyObject", "Menu"]
 - !private ["Ps9AnyObject", "Point"]
 - ["Ps9AnyObject", "TurnIndicator"]
 - !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIModalTransitionStyle"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
 - !private ["Ps9AnyObject", "backgroundColor"]
 - !private ["Ps9AnyObject", "blackColor"]
 - !private ["Ps9AnyObject", "blueColor"]
@@ -297,8 +303,11 @@ depends-member:
 - ["Ps9AnyObject", "i55"]
 - !private ["Ps9AnyObject", "image"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "modalTransitionStyle"]
 - !private ["Ps9AnyObject", "play"]
+- !private ["Ps9AnyObject", "presentViewController"]
 - ["Ps9AnyObject", "r00"]
 - ["Ps9AnyObject", "r01"]
 - ["Ps9AnyObject", "r02"]
@@ -367,11 +376,8 @@ depends-member:
 - ["C5Chess5Board", "init"]
 - !private ["C5Chess5Board", "play"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- ["Sb", "init"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- ["Ps25BooleanLiteralConvertible", "init"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
-- ["Ps11BooleanType", "init"]
 - !private ["CSo7CALayer", "backgroundColor"]
 - !private ["CSo7CALayer", "borderColor"]
 - !private ["CSo7CALayer", "borderWidth"]
@@ -382,12 +388,14 @@ depends-member:
 - !private ["PSo13CAMediaTiming", "cornerRadius"]
 - ["V12CoreGraphics7CGFloat", "deinit"]
 - ["Ps11CVarArgType", "Board"]
-- ["Ps11CVarArgType", "Bool"]
 - !private ["Ps11CVarArgType", "CGColor"]
+- ["Ps11CVarArgType", "Menu"]
 - !private ["Ps11CVarArgType", "Point"]
 - ["Ps11CVarArgType", "TurnIndicator"]
 - !private ["Ps11CVarArgType", "UIColor"]
 - !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "UIModalTransitionStyle"]
+- !private ["Ps11CVarArgType", "UIStoryboard"]
 - !private ["Ps11CVarArgType", "backgroundColor"]
 - !private ["Ps11CVarArgType", "blackColor"]
 - !private ["Ps11CVarArgType", "blueColor"]
@@ -498,7 +506,10 @@ depends-member:
 - ["Ps11CVarArgType", "i55"]
 - !private ["Ps11CVarArgType", "image"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps11CVarArgType", "layer"]
+- !private ["Ps11CVarArgType", "modalTransitionStyle"]
+- !private ["Ps11CVarArgType", "presentViewController"]
 - ["Ps11CVarArgType", "r00"]
 - ["Ps11CVarArgType", "r01"]
 - ["Ps11CVarArgType", "r02"]
@@ -564,12 +575,14 @@ depends-member:
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", ""]
 - ["Ps28CustomDebugStringConvertible", "Board"]
-- ["Ps28CustomDebugStringConvertible", "Bool"]
 - !private ["Ps28CustomDebugStringConvertible", "CGColor"]
+- ["Ps28CustomDebugStringConvertible", "Menu"]
 - !private ["Ps28CustomDebugStringConvertible", "Point"]
 - ["Ps28CustomDebugStringConvertible", "TurnIndicator"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIModalTransitionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
 - !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
 - !private ["Ps28CustomDebugStringConvertible", "blackColor"]
 - !private ["Ps28CustomDebugStringConvertible", "blueColor"]
@@ -680,7 +693,10 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "i55"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "modalTransitionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
 - ["Ps28CustomDebugStringConvertible", "r00"]
 - ["Ps28CustomDebugStringConvertible", "r01"]
 - ["Ps28CustomDebugStringConvertible", "r02"]
@@ -746,12 +762,14 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - ["Ps23CustomStringConvertible", "Board"]
-- ["Ps23CustomStringConvertible", "Bool"]
 - !private ["Ps23CustomStringConvertible", "CGColor"]
+- ["Ps23CustomStringConvertible", "Menu"]
 - !private ["Ps23CustomStringConvertible", "Point"]
 - ["Ps23CustomStringConvertible", "TurnIndicator"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UIModalTransitionStyle"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "backgroundColor"]
 - !private ["Ps23CustomStringConvertible", "blackColor"]
@@ -863,7 +881,10 @@ depends-member:
 - ["Ps23CustomStringConvertible", "i55"]
 - !private ["Ps23CustomStringConvertible", "image"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "modalTransitionStyle"]
+- !private ["Ps23CustomStringConvertible", "presentViewController"]
 - ["Ps23CustomStringConvertible", "r00"]
 - ["Ps23CustomStringConvertible", "r01"]
 - ["Ps23CustomStringConvertible", "r02"]
@@ -929,14 +950,18 @@ depends-member:
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - ["C5Chess28DoublePlayerUIViewController", "Board"]
-- ["C5Chess28DoublePlayerUIViewController", "Bool"]
+- !private ["C5Chess28DoublePlayerUIViewController", "Bool"]
 - ["C5Chess28DoublePlayerUIViewController", "CGFloat"]
+- ["C5Chess28DoublePlayerUIViewController", "Menu"]
 - !private ["C5Chess28DoublePlayerUIViewController", "Point"]
 - ["C5Chess28DoublePlayerUIViewController", "TurnIndicator"]
 - ["C5Chess28DoublePlayerUIViewController", "UIButton"]
 - !private ["C5Chess28DoublePlayerUIViewController", "UIColor"]
 - !private ["C5Chess28DoublePlayerUIViewController", "UIImage"]
 - ["C5Chess28DoublePlayerUIViewController", "UIImageView"]
+- !private ["C5Chess28DoublePlayerUIViewController", "UIModalTransitionStyle"]
+- !private ["C5Chess28DoublePlayerUIViewController", "UIStoryboard"]
+- !private ["C5Chess28DoublePlayerUIViewController", "UIViewController"]
 - !private ["C5Chess28DoublePlayerUIViewController", "board"]
 - !private ["C5Chess28DoublePlayerUIViewController", "borderWidth"]
 - ["C5Chess28DoublePlayerUIViewController", "c00"]
@@ -1042,6 +1067,7 @@ depends-member:
 - ["C5Chess28DoublePlayerUIViewController", "i54"]
 - ["C5Chess28DoublePlayerUIViewController", "i55"]
 - ["C5Chess28DoublePlayerUIViewController", "init"]
+- !private ["C5Chess28DoublePlayerUIViewController", "presentViewController"]
 - ["C5Chess28DoublePlayerUIViewController", "r00"]
 - ["C5Chess28DoublePlayerUIViewController", "r01"]
 - ["C5Chess28DoublePlayerUIViewController", "r02"]
@@ -1104,13 +1130,16 @@ depends-member:
 - ["C5Chess28DoublePlayerUIViewController", "rr54"]
 - ["C5Chess28DoublePlayerUIViewController", "viewDidLoad"]
 - ["Ps9Equatable", "Board"]
-- ["Ps9Equatable", "Bool"]
 - !private ["Ps9Equatable", "CGColor"]
 - !private ["Ps9Equatable", "Disabled"]
+- !private ["Ps9Equatable", "FlipHorizontal"]
+- ["Ps9Equatable", "Menu"]
 - !private ["Ps9Equatable", "Point"]
 - ["Ps9Equatable", "TurnIndicator"]
 - !private ["Ps9Equatable", "UIColor"]
 - !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UIModalTransitionStyle"]
+- !private ["Ps9Equatable", "UIStoryboard"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "backgroundColor"]
 - !private ["Ps9Equatable", "blackColor"]
@@ -1222,7 +1251,10 @@ depends-member:
 - ["Ps9Equatable", "i55"]
 - !private ["Ps9Equatable", "image"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "modalTransitionStyle"]
+- !private ["Ps9Equatable", "presentViewController"]
 - ["Ps9Equatable", "r00"]
 - ["Ps9Equatable", "r01"]
 - ["Ps9Equatable", "r02"]
@@ -1288,12 +1320,15 @@ depends-member:
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - ["Ps8Hashable", "Board"]
-- ["Ps8Hashable", "Bool"]
 - !private ["Ps8Hashable", "CGColor"]
+- !private ["Ps8Hashable", "FlipHorizontal"]
+- ["Ps8Hashable", "Menu"]
 - !private ["Ps8Hashable", "Point"]
 - ["Ps8Hashable", "TurnIndicator"]
 - !private ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UIModalTransitionStyle"]
+- !private ["Ps8Hashable", "UIStoryboard"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "backgroundColor"]
 - !private ["Ps8Hashable", "blackColor"]
@@ -1405,7 +1440,10 @@ depends-member:
 - ["Ps8Hashable", "i55"]
 - !private ["Ps8Hashable", "image"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "modalTransitionStyle"]
+- !private ["Ps8Hashable", "presentViewController"]
 - ["Ps8Hashable", "r00"]
 - ["Ps8Hashable", "r01"]
 - ["Ps8Hashable", "r02"]
@@ -1471,12 +1509,14 @@ depends-member:
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
 - ["PSo8NSCoding", "Board"]
-- ["PSo8NSCoding", "Bool"]
 - !private ["PSo8NSCoding", "CGColor"]
+- ["PSo8NSCoding", "Menu"]
 - !private ["PSo8NSCoding", "Point"]
 - ["PSo8NSCoding", "TurnIndicator"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "UIModalTransitionStyle"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - !private ["PSo8NSCoding", "blackColor"]
 - !private ["PSo8NSCoding", "blueColor"]
@@ -1588,6 +1628,8 @@ depends-member:
 - !private ["PSo8NSCoding", "image"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "modalTransitionStyle"]
+- !private ["PSo8NSCoding", "presentViewController"]
 - ["PSo8NSCoding", "r00"]
 - ["PSo8NSCoding", "r01"]
 - ["PSo8NSCoding", "r02"]
@@ -1657,11 +1699,13 @@ depends-member:
 - !private ["PSo9NSCopying", "blueColor"]
 - !private ["PSo9NSCopying", "redColor"]
 - ["PSo26NSExtensionRequestHandling", "Board"]
-- ["PSo26NSExtensionRequestHandling", "Bool"]
+- ["PSo26NSExtensionRequestHandling", "Menu"]
 - !private ["PSo26NSExtensionRequestHandling", "Point"]
 - ["PSo26NSExtensionRequestHandling", "TurnIndicator"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "UIModalTransitionStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
 - ["PSo26NSExtensionRequestHandling", "board"]
 - ["PSo26NSExtensionRequestHandling", "borderWidth"]
 - ["PSo26NSExtensionRequestHandling", "c00"]
@@ -1766,6 +1810,8 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "i54"]
 - ["PSo26NSExtensionRequestHandling", "i55"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "modalTransitionStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
 - ["PSo26NSExtensionRequestHandling", "r00"]
 - ["PSo26NSExtensionRequestHandling", "r01"]
 - ["PSo26NSExtensionRequestHandling", "r02"]
@@ -1829,15 +1875,19 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "Board"]
-- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGColor"]
 - ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Menu"]
 - !private ["CSo8NSObject", "Point"]
 - ["CSo8NSObject", "TurnIndicator"]
 - ["CSo8NSObject", "UIButton"]
 - !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "UIModalTransitionStyle"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- !private ["CSo8NSObject", "UIViewController"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "blackColor"]
 - !private ["CSo8NSObject", "blueColor"]
@@ -1948,7 +1998,10 @@ depends-member:
 - ["CSo8NSObject", "i55"]
 - !private ["CSo8NSObject", "image"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
 - !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "modalTransitionStyle"]
+- !private ["CSo8NSObject", "presentViewController"]
 - ["CSo8NSObject", "r00"]
 - ["CSo8NSObject", "r01"]
 - ["CSo8NSObject", "r02"]
@@ -2013,12 +2066,14 @@ depends-member:
 - !private ["CSo8NSObject", "setTitle"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "Board"]
-- ["PSo16NSObjectProtocol", "Bool"]
 - !private ["PSo16NSObjectProtocol", "CGColor"]
+- ["PSo16NSObjectProtocol", "Menu"]
 - !private ["PSo16NSObjectProtocol", "Point"]
 - ["PSo16NSObjectProtocol", "TurnIndicator"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UIModalTransitionStyle"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "blackColor"]
 - !private ["PSo16NSObjectProtocol", "blueColor"]
@@ -2129,7 +2184,10 @@ depends-member:
 - ["PSo16NSObjectProtocol", "i55"]
 - !private ["PSo16NSObjectProtocol", "image"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "modalTransitionStyle"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
 - ["PSo16NSObjectProtocol", "r00"]
 - ["PSo16NSObjectProtocol", "r01"]
 - ["PSo16NSObjectProtocol", "r02"]
@@ -2202,6 +2260,7 @@ depends-member:
 - !private ["Ps13OptionSetType", "Disabled"]
 - !private ["V5Chess5Point", "init"]
 - !private ["Ps16RawRepresentable", "Disabled"]
+- !private ["Ps16RawRepresentable", "FlipHorizontal"]
 - !private ["Ps14SetAlgebraType", "Disabled"]
 - !private ["PSo29UIAccessibilityIdentification", "image"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
@@ -2211,11 +2270,13 @@ depends-member:
 - !private ["PSo12UIAppearance", "layer"]
 - !private ["PSo12UIAppearance", "setTitle"]
 - ["PSo21UIAppearanceContainer", "Board"]
-- ["PSo21UIAppearanceContainer", "Bool"]
+- ["PSo21UIAppearanceContainer", "Menu"]
 - !private ["PSo21UIAppearanceContainer", "Point"]
 - ["PSo21UIAppearanceContainer", "TurnIndicator"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "UIModalTransitionStyle"]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
 - ["PSo21UIAppearanceContainer", "board"]
 - ["PSo21UIAppearanceContainer", "borderWidth"]
 - ["PSo21UIAppearanceContainer", "c00"]
@@ -2322,6 +2383,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "image"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "modalTransitionStyle"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
 - ["PSo21UIAppearanceContainer", "r00"]
 - ["PSo21UIAppearanceContainer", "r01"]
 - ["PSo21UIAppearanceContainer", "r02"]
@@ -2392,11 +2455,13 @@ depends-member:
 - !private ["CSo7UIColor", "blueColor"]
 - !private ["CSo7UIColor", "redColor"]
 - ["PSo18UIContentContainer", "Board"]
-- ["PSo18UIContentContainer", "Bool"]
+- ["PSo18UIContentContainer", "Menu"]
 - !private ["PSo18UIContentContainer", "Point"]
 - ["PSo18UIContentContainer", "TurnIndicator"]
 - !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "UIModalTransitionStyle"]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
 - ["PSo18UIContentContainer", "board"]
 - ["PSo18UIContentContainer", "borderWidth"]
 - ["PSo18UIContentContainer", "c00"]
@@ -2501,6 +2566,8 @@ depends-member:
 - ["PSo18UIContentContainer", "i54"]
 - ["PSo18UIContentContainer", "i55"]
 - ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "modalTransitionStyle"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
 - ["PSo18UIContentContainer", "r00"]
 - ["PSo18UIContentContainer", "r01"]
 - ["PSo18UIContentContainer", "r02"]
@@ -2573,11 +2640,13 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "layer"]
 - !private ["PSo13UIDynamicItem", "setTitle"]
 - ["PSo18UIFocusEnvironment", "Board"]
-- ["PSo18UIFocusEnvironment", "Bool"]
+- ["PSo18UIFocusEnvironment", "Menu"]
 - !private ["PSo18UIFocusEnvironment", "Point"]
 - ["PSo18UIFocusEnvironment", "TurnIndicator"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "UIModalTransitionStyle"]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
 - ["PSo18UIFocusEnvironment", "board"]
 - ["PSo18UIFocusEnvironment", "borderWidth"]
 - ["PSo18UIFocusEnvironment", "c00"]
@@ -2684,6 +2753,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "image"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "modalTransitionStyle"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
 - ["PSo18UIFocusEnvironment", "r00"]
 - ["PSo18UIFocusEnvironment", "r01"]
 - ["PSo18UIFocusEnvironment", "r02"]
@@ -2749,15 +2820,20 @@ depends-member:
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo7UIImage", "init"]
 - !private ["CSo11UIImageView", "image"]
+- !private ["OSC22UIModalTransitionStyle", "FlipHorizontal"]
 - ["CSo11UIResponder", "Board"]
-- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "Menu"]
 - !private ["CSo11UIResponder", "Point"]
 - ["CSo11UIResponder", "TurnIndicator"]
 - ["CSo11UIResponder", "UIButton"]
 - !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
+- !private ["CSo11UIResponder", "UIModalTransitionStyle"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- !private ["CSo11UIResponder", "UIViewController"]
 - ["CSo11UIResponder", "board"]
 - ["CSo11UIResponder", "borderWidth"]
 - ["CSo11UIResponder", "c00"]
@@ -2864,6 +2940,8 @@ depends-member:
 - !private ["CSo11UIResponder", "image"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "modalTransitionStyle"]
+- !private ["CSo11UIResponder", "presentViewController"]
 - ["CSo11UIResponder", "r00"]
 - ["CSo11UIResponder", "r01"]
 - ["CSo11UIResponder", "r02"]
@@ -2927,11 +3005,13 @@ depends-member:
 - !private ["CSo11UIResponder", "setTitle"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "Board"]
-- ["PSo16UIStateRestoring", "Bool"]
+- ["PSo16UIStateRestoring", "Menu"]
 - !private ["PSo16UIStateRestoring", "Point"]
 - ["PSo16UIStateRestoring", "TurnIndicator"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "UIModalTransitionStyle"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
 - ["PSo16UIStateRestoring", "board"]
 - ["PSo16UIStateRestoring", "borderWidth"]
 - ["PSo16UIStateRestoring", "c00"]
@@ -3036,6 +3116,8 @@ depends-member:
 - ["PSo16UIStateRestoring", "i54"]
 - ["PSo16UIStateRestoring", "i55"]
 - ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "modalTransitionStyle"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
 - ["PSo16UIStateRestoring", "r00"]
 - ["PSo16UIStateRestoring", "r01"]
 - ["PSo16UIStateRestoring", "r02"]
@@ -3098,12 +3180,16 @@ depends-member:
 - ["PSo16UIStateRestoring", "rr54"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
 - ["PSo18UITraitEnvironment", "Board"]
-- ["PSo18UITraitEnvironment", "Bool"]
+- ["PSo18UITraitEnvironment", "Menu"]
 - !private ["PSo18UITraitEnvironment", "Point"]
 - ["PSo18UITraitEnvironment", "TurnIndicator"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "UIModalTransitionStyle"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
 - ["PSo18UITraitEnvironment", "board"]
 - ["PSo18UITraitEnvironment", "borderWidth"]
 - ["PSo18UITraitEnvironment", "c00"]
@@ -3210,6 +3296,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "image"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "modalTransitionStyle"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
 - ["PSo18UITraitEnvironment", "r00"]
 - ["PSo18UITraitEnvironment", "r01"]
 - ["PSo18UITraitEnvironment", "r02"]
@@ -3277,14 +3365,18 @@ depends-member:
 - !private ["CSo6UIView", "layer"]
 - !private ["CSo6UIView", "setTitle"]
 - ["CSo16UIViewController", "Board"]
-- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CGFloat"]
+- ["CSo16UIViewController", "Menu"]
 - !private ["CSo16UIViewController", "Point"]
 - ["CSo16UIViewController", "TurnIndicator"]
 - ["CSo16UIViewController", "UIButton"]
 - !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
+- !private ["CSo16UIViewController", "UIModalTransitionStyle"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
+- !private ["CSo16UIViewController", "UIViewController"]
 - ["CSo16UIViewController", "board"]
 - ["CSo16UIViewController", "borderWidth"]
 - ["CSo16UIViewController", "c00"]
@@ -3389,6 +3481,8 @@ depends-member:
 - ["CSo16UIViewController", "i54"]
 - ["CSo16UIViewController", "i55"]
 - ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "modalTransitionStyle"]
+- !private ["CSo16UIViewController", "presentViewController"]
 - ["CSo16UIViewController", "r00"]
 - ["CSo16UIViewController", "r01"]
 - ["CSo16UIViewController", "r02"]
@@ -3452,26 +3546,23 @@ depends-member:
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- ["Ps33_BuiltinBooleanLiteralConvertible", "init"]
 - !private ["Ps24_ColorLiteralConvertible", "CGColor"]
 - !private ["Ps24_ColorLiteralConvertible", "blackColor"]
 - !private ["Ps24_ColorLiteralConvertible", "blueColor"]
 - !private ["Ps24_ColorLiteralConvertible", "redColor"]
 - !private ["Ps24_ImageLiteralConvertible", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "image"]
-- ["Ps12_Reflectable", "init"]
 - !private ["Ps12_Reflectable", "layer"]
 - !private ["Ps12_Reflectable", "setTitle"]
 depends-nominal:
 - "Ps9AnyObject"
 - !private "Ps23ArrayLiteralConvertible"
 - "C5Chess5Board"
-- "Sb"
-- "Ps25BooleanLiteralConvertible"
-- "Ps11BooleanType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
 - !private "CSo7CALayer"
 - !private "PSo13CAMediaTiming"
 - "V12CoreGraphics7CGFloat"
@@ -3504,16 +3595,18 @@ depends-nominal:
 - "PSo18UIFocusEnvironment"
 - !private "CSo7UIImage"
 - !private "CSo11UIImageView"
+- !private "OSC22UIModalTransitionStyle"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
-- "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
 - !private "Ps24_ColorLiteralConvertible"
 - !private "Ps24_ImageLiteralConvertible"
-- "Ps21_ObjectiveCBridgeable"
-- "Ps12_Reflectable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -3524,4 +3617,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "12f929056708a378832bd26788c46c49"
+interface-hash: "809c290ea64ba56c375fe1ee88e94534"

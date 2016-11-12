@@ -60,10 +60,12 @@ class Board {
             player2LastMove = [p1, p2]
         }
         
+        let endornot =  (numOfMoves >= 9 && (endOfGame()))
+        
         player1IsPlaying = !player1IsPlaying
         numOfMoves += 1
         
-        return numOfMoves >= 9 && (endOfGame())
+        return endornot
     }
     
     
@@ -95,40 +97,81 @@ class Board {
     // union any connected set of edges
     //
     private func unionEdges(point1: Point, point2: Point) {
-        var edges = player1IsPlaying ? player1Edges : player2Edges
+        let edges = player1IsPlaying ? player1Edges : player2Edges
         
+        print("edges count: \(edges.count)")
         
         // first move for each player
         if edges.isEmpty {
-            edges.append([point1, point2])
+            if player1IsPlaying {
+                player1Edges.append([point1, point2])
+            }else{
+                player2Edges.append([point1, point2])
+            }
+            
             return
         }
         
         // see if needs to union two sets of points
         var indexToUnion = -1
         
-        for i in 0...edges.count-1 {
-            for point in edges[i] {
-                // point1 or point2 appear in the set
-                //
-                if point == point1 || point == point2 {
-                    
-                    // if it's the second set that contains point1 or point2
-                    // union it with the first set,
-                    if indexToUnion != -1 {
-                        for p in edges[i] {
-                            edges[indexToUnion].append(p)
+        if (player1IsPlaying) {
+            for i in 0...player1Edges.count-1 {
+                for point in player1Edges[i] {
+                    // point1 or point2 appear in the set
+                    //
+                    if point == point1 || point == point2 {
+                        
+                        // if it's the second set that contains point1 or point2
+                        // union it with the first set,
+                        if indexToUnion != -1 {
+                            for p in player1Edges[i] {
+                                player1Edges[indexToUnion].append(p)
+                            }
+                            player1Edges.removeAtIndex(i)
+                            return
                         }
-                        edges.removeAtIndex(i)
-                        return
+                        
+                        player1Edges[i].append(point == point1 ? point2 : point1)
+                        indexToUnion = i
+                        break
                     }
-                    edges[i].append(point == point1 ? point2 : point1)
-                    indexToUnion = i
-                    break
                 }
             }
-        }
+            if (indexToUnion == -1) {
+                player1Edges.append(([point1, point2]))
+            }
 
+            
+        }else{
+            for i in 0...player2Edges.count-1 {
+                for point in player2Edges[i] {
+                    // point1 or point2 appear in the set
+                    //
+                    if point == point1 || point == point2 {
+                        
+                        // if it's the second set that contains point1 or point2
+                        // union it with the first set,
+                        if indexToUnion != -1 {
+                            for p in player2Edges[i] {
+                                player2Edges[indexToUnion].append(p)
+                            }
+                            player2Edges.removeAtIndex(i)
+                            return
+                        }
+                        
+                        player2Edges[i].append(point == point1 ? point2 : point1)
+                        indexToUnion = i
+                        break
+                    }
+                }
+            }
+            if (indexToUnion == -1) {
+                player2Edges.append(([point1, point2]))
+            }
+
+        }
+        
     }
     
     
@@ -146,6 +189,7 @@ class Board {
     // always the one who plays the current move wins, so no need to indicate who's the winner
     //
     private func endOfGame() -> Bool {
+        
         
         if numOfMoves == 60 { return true }
         
@@ -167,6 +211,7 @@ class Board {
                     }
                 }
                 if hasStart && hasEnd {
+                    print("Game ends")
                     return true
                 }
             }

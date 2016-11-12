@@ -22,12 +22,13 @@ class ChessViewController: UIViewController {
     }
     
     @IBAction func SinglePlayer(sender: UIButton) {
+    
     }
 
     @IBAction func DoublePlayer(sender: UIButton) {
         let sb = UIStoryboard(name: "Main", bundle: nil);
         let vc = sb.instantiateViewControllerWithIdentifier("Double") as UIViewController
-        vc.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
+        vc.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
         self.presentViewController(vc, animated: true, completion: nil)
     }
 
