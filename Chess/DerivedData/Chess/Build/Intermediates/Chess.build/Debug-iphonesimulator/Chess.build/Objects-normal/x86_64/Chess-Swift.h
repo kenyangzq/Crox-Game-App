@@ -113,11 +113,28 @@ SWIFT_CLASS("_TtC5Chess11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC5Chess19ChessViewController")
 @interface ChessViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Single;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Double;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Tutorial;
+- (void)viewDidLoad;
+- (IBAction)SinglePlayer:(UIButton * _Nonnull)sender;
+- (IBAction)DoublePlayer:(UIButton * _Nonnull)sender;
+- (IBAction)Tutorial:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
+@interface DoublePlayerUIViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
