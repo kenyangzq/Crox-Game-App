@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Chess View Controller-->
@@ -16,11 +17,100 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chess" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOi-ye-W7y">
+                                <rect key="frame" x="172" y="75" width="300" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="25" y="70" width="350" height="75"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BN9-LJ-Egc">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.91195473901016555" blue="0.47118365877832591" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Single Player">
+                                    <color key="titleColor" red="0.072218456691239968" green="0.24188072643979053" blue="0.043554792253163943" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="257" width="160" height="56"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkt-vZ-cXj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.91195473900000001" blue="0.47118365880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Double Player">
+                                    <color key="titleColor" red="0.072218456690000002" green="0.2418807264" blue="0.043554792250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="321" width="160" height="56"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQM-Gj-Clk">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.91195473900000001" blue="0.47118365880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Tutorial">
+                                    <color key="titleColor" red="0.072218456690000002" green="0.2418807264" blue="0.043554792250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="385" width="160" height="56"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y08-Ub-5jF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Double Player"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3L-8G-sLk">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Tutorial"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sOi-ye-W7y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="BT8-ix-mBa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sOi-ye-W7y" secondAttribute="trailing" constant="30" id="GpB-Q3-9Bs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sOi-ye-W7y" secondAttribute="bottom" constant="465" id="LZO-bw-y23"/>
+                            <constraint firstItem="sOi-ye-W7y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="Wc6-Gf-3rU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="BN9-LJ-Egc"/>
+                                <exclude reference="dkt-vZ-cXj"/>
+                                <exclude reference="zQM-Gj-Clk"/>
+                                <exclude reference="Y08-Ub-5jF"/>
+                                <exclude reference="G3L-8G-sLk"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="BT8-ix-mBa"/>
+                                <exclude reference="GpB-Q3-9Bs"/>
+                                <exclude reference="Wc6-Gf-3rU"/>
+                                <exclude reference="LZO-bw-y23"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="BN9-LJ-Egc"/>
+                                <include reference="dkt-vZ-cXj"/>
+                                <include reference="zQM-Gj-Clk"/>
+                                <exclude reference="Y08-Ub-5jF"/>
+                                <exclude reference="G3L-8G-sLk"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="BT8-ix-mBa"/>
+                                <include reference="GpB-Q3-9Bs"/>
+                                <include reference="Wc6-Gf-3rU"/>
+                                <include reference="LZO-bw-y23"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="342" y="181"/>
         </scene>
     </scenes>
 </document>
