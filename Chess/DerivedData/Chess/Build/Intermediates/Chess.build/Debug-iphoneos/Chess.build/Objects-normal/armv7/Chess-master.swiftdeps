@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "2103ecb719d6a8cbadc4520d9b942693"
+build_time: [532252682, 229221000]
+inputs:
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/ChessViewController.swift": [532242132, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/AppDelegate.swift": [532243408, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/Board.swift": [532252560, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/DoublePlayerUIViewController.swift": [532252415, 0]

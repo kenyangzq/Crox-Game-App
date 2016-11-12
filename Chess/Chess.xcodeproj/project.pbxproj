@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE673EA31DD703D400891117 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE673EA21DD703D400891117 /* Board.swift */; };
 		BEDD9FF91DD6D7C700995D89 /* DoublePlayerUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD9FF81DD6D7C700995D89 /* DoublePlayerUIViewController.swift */; };
 		BEDEFA521DD6C3BE005D81B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */; };
 		BEDEFA541DD6C3BE005D81B1 /* ChessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEFA531DD6C3BE005D81B1 /* ChessViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE673EA21DD703D400891117 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		BEDD9FF81DD6D7C700995D89 /* DoublePlayerUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoublePlayerUIViewController.swift; sourceTree = "<group>"; };
 		BEDEFA4E1DD6C3BE005D81B1 /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDEFA511DD6C3BE005D81B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				BE2E252C1DD6C51700D1F991 /* Supporting Files */,
 				BEDEFA531DD6C3BE005D81B1 /* ChessViewController.swift */,
+				BE673EA21DD703D400891117 /* Board.swift */,
 				BEDEFA551DD6C3BE005D81B1 /* Main.storyboard */,
 				BEDD9FF81DD6D7C700995D89 /* DoublePlayerUIViewController.swift */,
 			);
@@ -107,6 +110,7 @@
 				TargetAttributes = {
 					BEDEFA4D1DD6C3BE005D81B1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SJ32HF29L4;
 					};
 				};
 			};
@@ -148,6 +152,7 @@
 			files = (
 				BEDEFA541DD6C3BE005D81B1 /* ChessViewController.swift in Sources */,
 				BEDEFA521DD6C3BE005D81B1 /* AppDelegate.swift in Sources */,
+				BE673EA31DD703D400891117 /* Board.swift in Sources */,
 				BEDD9FF91DD6D7C700995D89 /* DoublePlayerUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +268,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Chess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kenyang.Chess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Chess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kenyang.Chess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
