@@ -10,7 +10,6 @@ import UIKit
 
 class ChessViewController: UIViewController {
 
-    @IBOutlet weak var Single: UIButton!
     @IBOutlet weak var Double: UIButton!
     @IBOutlet weak var Tutorial: UIButton!
 
@@ -18,16 +17,14 @@ class ChessViewController: UIViewController {
         super.viewDidLoad();
         
 //        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background1.jpeg")!)
-        
-        Single.layer.cornerRadius = 5 as CGFloat
+        let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
+        backgroundImage.image = UIImage(named: "background1")
+        backgroundImage.alpha = 1
+        self.view.insertSubview(backgroundImage, atIndex: 0)
         Double.layer.cornerRadius = 5 as CGFloat
         Tutorial.layer.cornerRadius = 5 as CGFloat
     }
     
-    @IBAction func SinglePlayer(sender: UIButton) {
-    
-    }
-
     @IBAction func DoublePlayer(sender: UIButton) {
         let sb = UIStoryboard(name: "Main", bundle: nil);
         let vc = sb.instantiateViewControllerWithIdentifier("Double") as UIViewController

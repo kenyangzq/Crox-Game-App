@@ -12,28 +12,27 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Board"
-- !private "!"
 - "Point"
-- "Bool"
 - !private "StringLiteralType"
-- !private "+="
-- !private "+"
-- !private ">="
 - !private "print"
-- "IntegerLiteralType"
-- !private "<"
-- "=="
-- "FloatLiteralType"
-- !private "!="
+- "Bool"
 - !private "%"
-- "Array"
+- "=="
+- "IntegerLiteralType"
 - !private ">"
-- "Int"
-- "BooleanLiteralType"
-- !private "-"
-- !private "..."
+- !private "!"
 - !private "&&"
+- "FloatLiteralType"
+- "BooleanLiteralType"
+- "Int"
+- "Array"
 - !private "||"
+- !private "!="
+- !private "+="
+- !private "-"
+- !private "+"
+- !private "<"
+- !private "..."
 depends-member:
 - ["Ps9AnyObject", "Array"]
 - ["Ps9AnyObject", "Point"]
@@ -45,9 +44,7 @@ depends-member:
 - !private ["Ps9AnyObject", "numOfMoves"]
 - !private ["Ps9AnyObject", "player1Edges"]
 - !private ["Ps9AnyObject", "player1IsPlaying"]
-- !private ["Ps9AnyObject", "player1LastMove"]
 - !private ["Ps9AnyObject", "player2Edges"]
-- !private ["Ps9AnyObject", "player2LastMove"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "redgeMark"]
 - !private ["Ps9AnyObject", "unionEdges"]
@@ -108,12 +105,9 @@ depends-member:
 - ["C5Chess5Board", "play"]
 - !private ["C5Chess5Board", "player1Edges"]
 - !private ["C5Chess5Board", "player1IsPlaying"]
-- !private ["C5Chess5Board", "player1LastMove"]
 - !private ["C5Chess5Board", "player2Edges"]
-- !private ["C5Chess5Board", "player2LastMove"]
 - !private ["C5Chess5Board", "print"]
 - !private ["C5Chess5Board", "redgeMark"]
-- ["C5Chess5Board", "regret"]
 - !private ["C5Chess5Board", "unionEdges"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
@@ -540,4 +534,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "29b9e785fb21af5d19271b464b36a1aa"
+interface-hash: "65dccffbb94f04b1102c99dd6c0889eb"

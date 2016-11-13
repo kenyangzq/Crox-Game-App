@@ -107,8 +107,9 @@ class DoublePlayerUIViewController: UIViewController {
     @IBOutlet weak var i53: UIImageView!
     @IBOutlet weak var i54: UIImageView!
     @IBOutlet weak var i55: UIImageView!
+    @IBOutlet weak var alphaiv: UIView!
     
-    @IBOutlet weak var Menu: UIButton!
+    @IBOutlet weak var menu: UIButton!
     
     private func buttoninitialization(b: UIButton) {
         b.layer.cornerRadius = 3 as CGFloat
@@ -121,6 +122,13 @@ class DoublePlayerUIViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         // Set buttons' attribution
+        let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
+        backgroundImage.image = UIImage(named: "background1")
+        backgroundImage.alpha = 1
+        self.view.insertSubview(backgroundImage, atIndex: 0)
+        
+        menu.layer.cornerRadius = 5 as CGFloat
+        
         buttoninitialization(r00)
         buttoninitialization(r01)
         buttoninitialization(r02)
@@ -191,9 +199,9 @@ class DoublePlayerUIViewController: UIViewController {
     
     private func checkTurn(first: Bool) -> Bool {
         if (first) {
-            TurnIndicator.image = UIImage(named: "bcircle")
+            TurnIndicator.image = UIImage(named: "circle-blue")
         } else {
-            TurnIndicator.image = UIImage(named: "rcircle")
+            TurnIndicator.image = UIImage(named: "circle-red")
         }
         return !first
     }

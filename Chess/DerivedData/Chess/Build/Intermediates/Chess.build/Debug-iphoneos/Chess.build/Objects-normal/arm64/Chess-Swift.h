@@ -119,11 +119,9 @@ SWIFT_CLASS("_TtC5Chess11AppDelegate")
 
 SWIFT_CLASS("_TtC5Chess19ChessViewController")
 @interface ChessViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Single;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Double;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Tutorial;
 - (void)viewDidLoad;
-- (IBAction)SinglePlayer:(UIButton * _Nonnull)sender;
 - (IBAction)DoublePlayer:(UIButton * _Nonnull)sender;
 - (IBAction)Tutorial:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -131,6 +129,7 @@ SWIFT_CLASS("_TtC5Chess19ChessViewController")
 @end
 
 @class UIImageView;
+@class UIView;
 
 SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @interface DoublePlayerUIViewController : UIViewController
@@ -231,7 +230,8 @@ SWIFT_CLASS("_TtC5Chess28DoublePlayerUIViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i53;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i54;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified i55;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified Menu;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified alphaiv;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified menu;
 - (void)viewDidLoad;
 - (IBAction)Menu:(UIButton * _Nonnull)sender;
 - (void)didReceiveMemoryWarning;

@@ -23,6 +23,11 @@ class EndViewController: UIViewController {
         
         restart.layer.cornerRadius = 5 as CGFloat
         main.layer.cornerRadius = 5 as CGFloat
+        
+        let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
+        backgroundImage.image = UIImage(named: "background1")
+        backgroundImage.alpha = 1
+        self.view.insertSubview(backgroundImage, atIndex: 0)
     }
 
     override func didReceiveMemoryWarning() {

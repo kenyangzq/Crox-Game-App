@@ -6,186 +6,189 @@ provides-nominal:
 provides-member:
 - ["C5Chess28DoublePlayerUIViewController", ""]
 provides-dynamic-lookup:
-- "r52"
-- "i10"
-- "cc42"
-- "rr01"
-- "i33"
-- "c23"
-- "r10"
-- "c22"
-- "r11"
-- "r53"
-- "cc31"
-- "r51"
-- "i11"
-- "rr44"
-- "rr13"
-- "c24"
-- "i05"
-- "r04"
-- "i32"
-- "r54"
-- "i31"
-- "r50"
-- "rr32"
-- "rr51"
-- "cc14"
-- "rr20"
-- "cc03"
-- "cc25"
-- "r03"
-- "i13"
-- "c00"
-- "i40"
-- "r44"
-- "cc12"
-- "i35"
-- "cc05"
-- "c25"
-- "c01"
-- "r43"
-- "cc33"
-- "c31"
-- "i12"
-- "c30"
-- "rr42"
-- "rr11"
-- "r02"
-- "c02"
-- "r42"
-- "i34"
-- "c32"
-- "r00"
-- "i20"
-- "r41"
-- "cc23"
-- "r01"
-- "c03"
-- "rr53"
-- "rr10"
-- "i42"
-- "rr22"
-- "rr41"
-- "cc34"
-- "i41"
-- "TurnIndicator"
-- "i14"
-- "r40"
-- "c04"
-- "c33"
-- "cc40"
-- "rr03"
-- "rr34"
-- "i15"
-- "r34"
-- "i22"
-- "c05"
-- "cc44"
-- "i45"
-- "i44"
-- "r33"
-- "i23"
-- "c10"
-- "c34"
-- "didReceiveMemoryWarning"
-- "i21"
-- "c40"
-- "i43"
-- "rr24"
-- "c35"
-- "cc00"
-- "cc21"
-- "r32"
-- "rr50"
-- "i25"
-- "cc30"
-- "c41"
-- "rr14"
-- "i51"
-- "r31"
-- "rr33"
-- "rr02"
-- "r30"
-- "i50"
-- "cc04"
-- "cc02"
-- "cc41"
-- "cc13"
-- "cc15"
-- "rr31"
-- "c42"
-- "i24"
-- "c44"
-- "cc32"
-- "r24"
-- "i54"
-- "rr12"
-- "rr43"
-- "r23"
-- "c11"
-- "c43"
-- "i53"
-- "c45"
-- "cc11"
-- "cc10"
-- "r22"
-- "i52"
-- "c12"
 - "r21"
+- "c40"
+- "Menu"
+- "rr30"
+- "menu"
+- "cc12"
+- "rr42"
+- "r22"
+- "c02"
+- "i23"
+- "c41"
+- "c01"
+- "r20"
+- "i24"
+- "rr23"
+- "cc40"
+- "rr11"
+- "alphaiv"
+- "cc14"
+- "cc25"
+- "c42"
+- "i54"
+- "c05"
+- "i21"
+- "r24"
+- "i20"
+- "c34"
+- "i55"
+- "cc34"
+- "rr13"
+- "cc31"
+- "i22"
+- "i53"
+- "c04"
+- "c35"
+- "c03"
+- "cc10"
+- "r23"
+- "rr44"
+- "rr20"
+- "cc32"
+- "c45"
+- "r31"
+- "c12"
+- "c11"
+- "cc05"
+- "rr33"
+- "i00"
+- "cc01"
+- "cc20"
+- "r32"
+- "i32"
+- "r30"
+- "i34"
+- "i01"
+- "i33"
+- "c10"
+- "didReceiveMemoryWarning"
+- "rr52"
+- "rr40"
+- "cc03"
+- "r34"
+- "i30"
+- "c43"
+- "i25"
+- "rr01"
+- "c14"
+- "rr10"
+- "viewDidLoad"
 - "c13"
 - "rr54"
-- "cc22"
-- "i00"
-- "Menu"
-- "Menu"
-- "cc45"
-- "i02"
-- "viewDidLoad"
-- "r20"
-- "c14"
-- "rr04"
-- "rr40"
-- "cc35"
-- "r14"
-- "i55"
-- "c15"
-- "i01"
-- "i30"
-- "i03"
-- "rr21"
-- "cc20"
-- "cc24"
-- "rr52"
-- "rr30"
-- "cc01"
-- "r13"
-- "c20"
+- "i31"
 - "cc43"
-- "r12"
+- "cc45"
+- "c44"
+- "TurnIndicator"
+- "rr03"
+- "rr31"
+- "r33"
+- "cc22"
 - "c21"
-- "rr00"
+- "i42"
+- "cc24"
 - "i04"
-- "rr23"
+- "rr12"
+- "r00"
+- "i05"
+- "cc13"
+- "c20"
+- "i41"
+- "r42"
+- "cc41"
+- "r40"
+- "i43"
+- "rr41"
+- "cc35"
+- "rr24"
+- "r01"
+- "r41"
+- "i10"
+- "c15"
+- "r03"
+- "i02"
+- "i35"
+- "r44"
+- "cc30"
+- "rr14"
+- "c23"
+- "r50"
+- "rr22"
+- "r02"
+- "cc33"
+- "r43"
+- "c22"
+- "rr43"
+- "rr50"
+- "r04"
+- "i03"
+- "i40"
+- "cc11"
+- "r52"
+- "i51"
+- "cc04"
+- "c30"
+- "rr21"
+- "rr51"
+- "cc44"
+- "r10"
+- "rr34"
+- "i14"
+- "i50"
+- "i15"
+- "c25"
+- "cc15"
+- "cc00"
+- "i52"
+- "r11"
+- "r51"
+- "c24"
+- "cc42"
+- "c33"
+- "i11"
+- "r13"
+- "cc02"
+- "rr53"
+- "r54"
+- "i44"
+- "rr00"
+- "c00"
+- "c32"
+- "r12"
+- "rr04"
+- "r53"
+- "cc21"
+- "cc23"
+- "r14"
+- "i12"
+- "c31"
+- "rr32"
+- "i45"
+- "i13"
+- "rr02"
 depends-top-level:
-- !private "&&"
-- !private "StringLiteralType"
+- !private "Point"
+- "Board"
 - !private "UIStoryboard"
-- "UIViewController"
 - "DoublePlayerUIViewController"
-- !private "Bool"
-- !private "UIModalTransitionStyle"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "UIImage"
+- !private "&&"
 - !private "!"
 - !private "=="
-- "BooleanLiteralType"
-- !private "UIImage"
-- !private "Point"
-- !private "UIColor"
-- "UIButton"
-- "CGFloat"
-- "Board"
-- "UIImageView"
+- "UIViewController"
+- !private "Bool"
 - !private "NSUserDefaults"
+- "UIButton"
+- "UIView"
+- !private "UIScreen"
+- "BooleanLiteralType"
+- "UIImageView"
+- !private "UIModalTransitionStyle"
+- "CGFloat"
 depends-member:
 - ["Ps9AnyObject", "Board"]
 - !private ["Ps9AnyObject", "CGColor"]
@@ -195,14 +198,19 @@ depends-member:
 - ["Ps9AnyObject", "TurnIndicator"]
 - !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIImageView"]
 - !private ["Ps9AnyObject", "UIModalTransitionStyle"]
+- !private ["Ps9AnyObject", "UIScreen"]
 - !private ["Ps9AnyObject", "UIStoryboard"]
+- !private ["Ps9AnyObject", "alpha"]
+- ["Ps9AnyObject", "alphaiv"]
 - !private ["Ps9AnyObject", "backgroundColor"]
 - !private ["Ps9AnyObject", "blackColor"]
 - !private ["Ps9AnyObject", "blueColor"]
 - ["Ps9AnyObject", "board"]
 - !private ["Ps9AnyObject", "borderColor"]
 - ["Ps9AnyObject", "borderWidth"]
+- !private ["Ps9AnyObject", "bounds"]
 - ["Ps9AnyObject", "buttonclicked"]
 - ["Ps9AnyObject", "buttoninitialization"]
 - ["Ps9AnyObject", "c00"]
@@ -311,8 +319,11 @@ depends-member:
 - ["Ps9AnyObject", "i55"]
 - !private ["Ps9AnyObject", "image"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "insertSubview"]
 - !private ["Ps9AnyObject", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "mainScreen"]
+- ["Ps9AnyObject", "menu"]
 - !private ["Ps9AnyObject", "modalTransitionStyle"]
 - !private ["Ps9AnyObject", "play"]
 - !private ["Ps9AnyObject", "presentViewController"]
@@ -378,6 +389,7 @@ depends-member:
 - ["Ps9AnyObject", "rr53"]
 - ["Ps9AnyObject", "rr54"]
 - !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
 - ["C5Chess5Board", "init"]
@@ -402,14 +414,19 @@ depends-member:
 - ["Ps11CVarArgType", "TurnIndicator"]
 - !private ["Ps11CVarArgType", "UIColor"]
 - !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "UIImageView"]
 - !private ["Ps11CVarArgType", "UIModalTransitionStyle"]
+- !private ["Ps11CVarArgType", "UIScreen"]
 - !private ["Ps11CVarArgType", "UIStoryboard"]
+- !private ["Ps11CVarArgType", "alpha"]
+- ["Ps11CVarArgType", "alphaiv"]
 - !private ["Ps11CVarArgType", "backgroundColor"]
 - !private ["Ps11CVarArgType", "blackColor"]
 - !private ["Ps11CVarArgType", "blueColor"]
 - ["Ps11CVarArgType", "board"]
 - !private ["Ps11CVarArgType", "borderColor"]
 - ["Ps11CVarArgType", "borderWidth"]
+- !private ["Ps11CVarArgType", "bounds"]
 - ["Ps11CVarArgType", "buttonclicked"]
 - ["Ps11CVarArgType", "buttoninitialization"]
 - ["Ps11CVarArgType", "c00"]
@@ -517,8 +534,11 @@ depends-member:
 - ["Ps11CVarArgType", "i55"]
 - !private ["Ps11CVarArgType", "image"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "insertSubview"]
 - !private ["Ps11CVarArgType", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps11CVarArgType", "layer"]
+- !private ["Ps11CVarArgType", "mainScreen"]
+- ["Ps11CVarArgType", "menu"]
 - !private ["Ps11CVarArgType", "modalTransitionStyle"]
 - !private ["Ps11CVarArgType", "presentViewController"]
 - ["Ps11CVarArgType", "r00"]
@@ -583,6 +603,7 @@ depends-member:
 - ["Ps11CVarArgType", "rr53"]
 - ["Ps11CVarArgType", "rr54"]
 - !private ["Ps11CVarArgType", "setValue"]
+- !private ["Ps11CVarArgType", "view"]
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", ""]
 - ["Ps28CustomDebugStringConvertible", "Board"]
@@ -593,14 +614,19 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "TurnIndicator"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImageView"]
 - !private ["Ps28CustomDebugStringConvertible", "UIModalTransitionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
 - !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- !private ["Ps28CustomDebugStringConvertible", "alpha"]
+- ["Ps28CustomDebugStringConvertible", "alphaiv"]
 - !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
 - !private ["Ps28CustomDebugStringConvertible", "blackColor"]
 - !private ["Ps28CustomDebugStringConvertible", "blueColor"]
 - ["Ps28CustomDebugStringConvertible", "board"]
 - !private ["Ps28CustomDebugStringConvertible", "borderColor"]
 - ["Ps28CustomDebugStringConvertible", "borderWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
 - ["Ps28CustomDebugStringConvertible", "buttonclicked"]
 - ["Ps28CustomDebugStringConvertible", "buttoninitialization"]
 - ["Ps28CustomDebugStringConvertible", "c00"]
@@ -708,8 +734,11 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "i55"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insertSubview"]
 - !private ["Ps28CustomDebugStringConvertible", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
+- ["Ps28CustomDebugStringConvertible", "menu"]
 - !private ["Ps28CustomDebugStringConvertible", "modalTransitionStyle"]
 - !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
 - ["Ps28CustomDebugStringConvertible", "r00"]
@@ -774,6 +803,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "rr53"]
 - ["Ps28CustomDebugStringConvertible", "rr54"]
 - !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - ["Ps23CustomStringConvertible", "Board"]
@@ -784,15 +814,20 @@ depends-member:
 - ["Ps23CustomStringConvertible", "TurnIndicator"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UIImageView"]
 - !private ["Ps23CustomStringConvertible", "UIModalTransitionStyle"]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
 - !private ["Ps23CustomStringConvertible", "UIStoryboard"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "alpha"]
+- ["Ps23CustomStringConvertible", "alphaiv"]
 - !private ["Ps23CustomStringConvertible", "backgroundColor"]
 - !private ["Ps23CustomStringConvertible", "blackColor"]
 - !private ["Ps23CustomStringConvertible", "blueColor"]
 - ["Ps23CustomStringConvertible", "board"]
 - !private ["Ps23CustomStringConvertible", "borderColor"]
 - ["Ps23CustomStringConvertible", "borderWidth"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
 - ["Ps23CustomStringConvertible", "buttonclicked"]
 - ["Ps23CustomStringConvertible", "buttoninitialization"]
 - ["Ps23CustomStringConvertible", "c00"]
@@ -900,8 +935,11 @@ depends-member:
 - ["Ps23CustomStringConvertible", "i55"]
 - !private ["Ps23CustomStringConvertible", "image"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insertSubview"]
 - !private ["Ps23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "mainScreen"]
+- ["Ps23CustomStringConvertible", "menu"]
 - !private ["Ps23CustomStringConvertible", "modalTransitionStyle"]
 - !private ["Ps23CustomStringConvertible", "presentViewController"]
 - ["Ps23CustomStringConvertible", "r00"]
@@ -966,6 +1004,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "rr53"]
 - ["Ps23CustomStringConvertible", "rr54"]
 - !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - ["C5Chess28DoublePlayerUIViewController", "Board"]
@@ -980,8 +1019,11 @@ depends-member:
 - !private ["C5Chess28DoublePlayerUIViewController", "UIImage"]
 - ["C5Chess28DoublePlayerUIViewController", "UIImageView"]
 - !private ["C5Chess28DoublePlayerUIViewController", "UIModalTransitionStyle"]
+- !private ["C5Chess28DoublePlayerUIViewController", "UIScreen"]
 - !private ["C5Chess28DoublePlayerUIViewController", "UIStoryboard"]
+- ["C5Chess28DoublePlayerUIViewController", "UIView"]
 - !private ["C5Chess28DoublePlayerUIViewController", "UIViewController"]
+- ["C5Chess28DoublePlayerUIViewController", "alphaiv"]
 - !private ["C5Chess28DoublePlayerUIViewController", "board"]
 - !private ["C5Chess28DoublePlayerUIViewController", "borderWidth"]
 - !private ["C5Chess28DoublePlayerUIViewController", "buttonclicked"]
@@ -1089,6 +1131,7 @@ depends-member:
 - ["C5Chess28DoublePlayerUIViewController", "i54"]
 - ["C5Chess28DoublePlayerUIViewController", "i55"]
 - ["C5Chess28DoublePlayerUIViewController", "init"]
+- ["C5Chess28DoublePlayerUIViewController", "menu"]
 - !private ["C5Chess28DoublePlayerUIViewController", "presentViewController"]
 - ["C5Chess28DoublePlayerUIViewController", "r00"]
 - ["C5Chess28DoublePlayerUIViewController", "r01"]
@@ -1150,6 +1193,7 @@ depends-member:
 - ["C5Chess28DoublePlayerUIViewController", "rr52"]
 - ["C5Chess28DoublePlayerUIViewController", "rr53"]
 - ["C5Chess28DoublePlayerUIViewController", "rr54"]
+- !private ["C5Chess28DoublePlayerUIViewController", "view"]
 - ["C5Chess28DoublePlayerUIViewController", "viewDidLoad"]
 - ["Ps9Equatable", "Board"]
 - !private ["Ps9Equatable", "CGColor"]
@@ -1160,15 +1204,20 @@ depends-member:
 - ["Ps9Equatable", "TurnIndicator"]
 - !private ["Ps9Equatable", "UIColor"]
 - !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UIImageView"]
 - !private ["Ps9Equatable", "UIModalTransitionStyle"]
+- !private ["Ps9Equatable", "UIScreen"]
 - !private ["Ps9Equatable", "UIStoryboard"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "alpha"]
+- ["Ps9Equatable", "alphaiv"]
 - !private ["Ps9Equatable", "backgroundColor"]
 - !private ["Ps9Equatable", "blackColor"]
 - !private ["Ps9Equatable", "blueColor"]
 - ["Ps9Equatable", "board"]
 - !private ["Ps9Equatable", "borderColor"]
 - ["Ps9Equatable", "borderWidth"]
+- !private ["Ps9Equatable", "bounds"]
 - ["Ps9Equatable", "buttonclicked"]
 - ["Ps9Equatable", "buttoninitialization"]
 - ["Ps9Equatable", "c00"]
@@ -1276,8 +1325,11 @@ depends-member:
 - ["Ps9Equatable", "i55"]
 - !private ["Ps9Equatable", "image"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insertSubview"]
 - !private ["Ps9Equatable", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "mainScreen"]
+- ["Ps9Equatable", "menu"]
 - !private ["Ps9Equatable", "modalTransitionStyle"]
 - !private ["Ps9Equatable", "presentViewController"]
 - ["Ps9Equatable", "r00"]
@@ -1342,6 +1394,7 @@ depends-member:
 - ["Ps9Equatable", "rr53"]
 - ["Ps9Equatable", "rr54"]
 - !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - ["Ps8Hashable", "Board"]
@@ -1353,15 +1406,20 @@ depends-member:
 - ["Ps8Hashable", "TurnIndicator"]
 - !private ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UIImageView"]
 - !private ["Ps8Hashable", "UIModalTransitionStyle"]
+- !private ["Ps8Hashable", "UIScreen"]
 - !private ["Ps8Hashable", "UIStoryboard"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "alpha"]
+- ["Ps8Hashable", "alphaiv"]
 - !private ["Ps8Hashable", "backgroundColor"]
 - !private ["Ps8Hashable", "blackColor"]
 - !private ["Ps8Hashable", "blueColor"]
 - ["Ps8Hashable", "board"]
 - !private ["Ps8Hashable", "borderColor"]
 - ["Ps8Hashable", "borderWidth"]
+- !private ["Ps8Hashable", "bounds"]
 - ["Ps8Hashable", "buttonclicked"]
 - ["Ps8Hashable", "buttoninitialization"]
 - ["Ps8Hashable", "c00"]
@@ -1469,8 +1527,11 @@ depends-member:
 - ["Ps8Hashable", "i55"]
 - !private ["Ps8Hashable", "image"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "insertSubview"]
 - !private ["Ps8Hashable", "instantiateViewControllerWithIdentifier"]
 - !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "mainScreen"]
+- ["Ps8Hashable", "menu"]
 - !private ["Ps8Hashable", "modalTransitionStyle"]
 - !private ["Ps8Hashable", "presentViewController"]
 - ["Ps8Hashable", "r00"]
@@ -1535,6 +1596,7 @@ depends-member:
 - ["Ps8Hashable", "rr53"]
 - ["Ps8Hashable", "rr54"]
 - !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
 - ["PSo8NSCoding", "Board"]
@@ -1545,8 +1607,12 @@ depends-member:
 - ["PSo8NSCoding", "TurnIndicator"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "UIImageView"]
 - !private ["PSo8NSCoding", "UIModalTransitionStyle"]
+- !private ["PSo8NSCoding", "UIScreen"]
 - !private ["PSo8NSCoding", "UIStoryboard"]
+- !private ["PSo8NSCoding", "alpha"]
+- ["PSo8NSCoding", "alphaiv"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - !private ["PSo8NSCoding", "blackColor"]
 - !private ["PSo8NSCoding", "blueColor"]
@@ -1660,7 +1726,9 @@ depends-member:
 - ["PSo8NSCoding", "i55"]
 - !private ["PSo8NSCoding", "image"]
 - ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "insertSubview"]
 - !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "menu"]
 - !private ["PSo8NSCoding", "modalTransitionStyle"]
 - !private ["PSo8NSCoding", "presentViewController"]
 - ["PSo8NSCoding", "r00"]
@@ -1724,6 +1792,7 @@ depends-member:
 - ["PSo8NSCoding", "rr52"]
 - ["PSo8NSCoding", "rr53"]
 - ["PSo8NSCoding", "rr54"]
+- !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "CGColor"]
@@ -1737,8 +1806,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "TurnIndicator"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImageView"]
 - !private ["PSo26NSExtensionRequestHandling", "UIModalTransitionStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "UIScreen"]
 - !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
+- ["PSo26NSExtensionRequestHandling", "alphaiv"]
 - ["PSo26NSExtensionRequestHandling", "board"]
 - ["PSo26NSExtensionRequestHandling", "borderWidth"]
 - ["PSo26NSExtensionRequestHandling", "buttonclicked"]
@@ -1845,6 +1917,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "i54"]
 - ["PSo26NSExtensionRequestHandling", "i55"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "menu"]
 - !private ["PSo26NSExtensionRequestHandling", "modalTransitionStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
 - ["PSo26NSExtensionRequestHandling", "r00"]
@@ -1907,6 +1980,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "rr52"]
 - ["PSo26NSExtensionRequestHandling", "rr53"]
 - ["PSo26NSExtensionRequestHandling", "rr54"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "Board"]
@@ -1922,14 +1996,19 @@ depends-member:
 - !private ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
 - !private ["CSo8NSObject", "UIModalTransitionStyle"]
+- !private ["CSo8NSObject", "UIScreen"]
 - !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "alpha"]
+- ["CSo8NSObject", "alphaiv"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "blackColor"]
 - !private ["CSo8NSObject", "blueColor"]
 - ["CSo8NSObject", "board"]
 - !private ["CSo8NSObject", "borderColor"]
 - ["CSo8NSObject", "borderWidth"]
+- !private ["CSo8NSObject", "bounds"]
 - ["CSo8NSObject", "buttonclicked"]
 - ["CSo8NSObject", "buttoninitialization"]
 - ["CSo8NSObject", "c00"]
@@ -2037,8 +2116,11 @@ depends-member:
 - ["CSo8NSObject", "i55"]
 - !private ["CSo8NSObject", "image"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "insertSubview"]
 - !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
 - !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "mainScreen"]
+- ["CSo8NSObject", "menu"]
 - !private ["CSo8NSObject", "modalTransitionStyle"]
 - !private ["CSo8NSObject", "presentViewController"]
 - ["CSo8NSObject", "r00"]
@@ -2103,6 +2185,7 @@ depends-member:
 - ["CSo8NSObject", "rr53"]
 - ["CSo8NSObject", "rr54"]
 - !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "Board"]
 - !private ["PSo16NSObjectProtocol", "CGColor"]
@@ -2112,14 +2195,19 @@ depends-member:
 - ["PSo16NSObjectProtocol", "TurnIndicator"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UIImageView"]
 - !private ["PSo16NSObjectProtocol", "UIModalTransitionStyle"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
 - !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
+- ["PSo16NSObjectProtocol", "alphaiv"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "blackColor"]
 - !private ["PSo16NSObjectProtocol", "blueColor"]
 - ["PSo16NSObjectProtocol", "board"]
 - !private ["PSo16NSObjectProtocol", "borderColor"]
 - ["PSo16NSObjectProtocol", "borderWidth"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
 - ["PSo16NSObjectProtocol", "buttonclicked"]
 - ["PSo16NSObjectProtocol", "buttoninitialization"]
 - ["PSo16NSObjectProtocol", "c00"]
@@ -2227,8 +2315,11 @@ depends-member:
 - ["PSo16NSObjectProtocol", "i55"]
 - !private ["PSo16NSObjectProtocol", "image"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "insertSubview"]
 - !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- ["PSo16NSObjectProtocol", "menu"]
 - !private ["PSo16NSObjectProtocol", "modalTransitionStyle"]
 - !private ["PSo16NSObjectProtocol", "presentViewController"]
 - ["PSo16NSObjectProtocol", "r00"]
@@ -2293,6 +2384,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "rr53"]
 - ["PSo16NSObjectProtocol", "rr54"]
 - !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "CGColor"]
@@ -2306,12 +2398,17 @@ depends-member:
 - !private ["V5Chess5Point", "init"]
 - !private ["Ps16RawRepresentable", "FlipHorizontal"]
 - !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
 - !private ["PSo29UIAccessibilityIdentification", "enabled"]
 - !private ["PSo29UIAccessibilityIdentification", "image"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "insertSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo12UIAppearance", "alpha"]
 - !private ["PSo12UIAppearance", "enabled"]
 - !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "insertSubview"]
 - !private ["PSo12UIAppearance", "layer"]
 - ["PSo21UIAppearanceContainer", "Board"]
 - ["PSo21UIAppearanceContainer", "Menu"]
@@ -2320,8 +2417,12 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "TurnIndicator"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "UIImageView"]
 - !private ["PSo21UIAppearanceContainer", "UIModalTransitionStyle"]
+- !private ["PSo21UIAppearanceContainer", "UIScreen"]
 - !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
+- ["PSo21UIAppearanceContainer", "alphaiv"]
 - ["PSo21UIAppearanceContainer", "board"]
 - ["PSo21UIAppearanceContainer", "borderWidth"]
 - ["PSo21UIAppearanceContainer", "buttonclicked"]
@@ -2430,7 +2531,9 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "i55"]
 - !private ["PSo21UIAppearanceContainer", "image"]
 - ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "insertSubview"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "menu"]
 - !private ["PSo21UIAppearanceContainer", "modalTransitionStyle"]
 - !private ["PSo21UIAppearanceContainer", "presentViewController"]
 - ["PSo21UIAppearanceContainer", "r00"]
@@ -2493,6 +2596,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "rr52"]
 - ["PSo21UIAppearanceContainer", "rr53"]
 - ["PSo21UIAppearanceContainer", "rr54"]
+- !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo8UIButton", "enabled"]
@@ -2508,8 +2612,11 @@ depends-member:
 - ["PSo18UIContentContainer", "TurnIndicator"]
 - !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "UIImageView"]
 - !private ["PSo18UIContentContainer", "UIModalTransitionStyle"]
+- !private ["PSo18UIContentContainer", "UIScreen"]
 - !private ["PSo18UIContentContainer", "UIStoryboard"]
+- ["PSo18UIContentContainer", "alphaiv"]
 - ["PSo18UIContentContainer", "board"]
 - ["PSo18UIContentContainer", "borderWidth"]
 - ["PSo18UIContentContainer", "buttonclicked"]
@@ -2616,6 +2723,7 @@ depends-member:
 - ["PSo18UIContentContainer", "i54"]
 - ["PSo18UIContentContainer", "i55"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "menu"]
 - !private ["PSo18UIContentContainer", "modalTransitionStyle"]
 - !private ["PSo18UIContentContainer", "presentViewController"]
 - ["PSo18UIContentContainer", "r00"]
@@ -2678,15 +2786,22 @@ depends-member:
 - ["PSo18UIContentContainer", "rr52"]
 - ["PSo18UIContentContainer", "rr53"]
 - ["PSo18UIContentContainer", "rr54"]
+- !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["CSo9UIControl", "enabled"]
 - !private ["CSo9UIControl", "layer"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
 - !private ["PSo17UICoordinateSpace", "enabled"]
 - !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "insertSubview"]
 - !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo13UIDynamicItem", "alpha"]
 - !private ["PSo13UIDynamicItem", "enabled"]
 - !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "insertSubview"]
 - !private ["PSo13UIDynamicItem", "layer"]
 - ["PSo18UIFocusEnvironment", "Board"]
 - ["PSo18UIFocusEnvironment", "Menu"]
@@ -2695,8 +2810,12 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "TurnIndicator"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "UIImageView"]
 - !private ["PSo18UIFocusEnvironment", "UIModalTransitionStyle"]
+- !private ["PSo18UIFocusEnvironment", "UIScreen"]
 - !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
+- ["PSo18UIFocusEnvironment", "alphaiv"]
 - ["PSo18UIFocusEnvironment", "board"]
 - ["PSo18UIFocusEnvironment", "borderWidth"]
 - ["PSo18UIFocusEnvironment", "buttonclicked"]
@@ -2805,7 +2924,9 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "i55"]
 - !private ["PSo18UIFocusEnvironment", "image"]
 - ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "insertSubview"]
 - !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "menu"]
 - !private ["PSo18UIFocusEnvironment", "modalTransitionStyle"]
 - !private ["PSo18UIFocusEnvironment", "presentViewController"]
 - ["PSo18UIFocusEnvironment", "r00"]
@@ -2868,10 +2989,13 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "rr52"]
 - ["PSo18UIFocusEnvironment", "rr53"]
 - ["PSo18UIFocusEnvironment", "rr54"]
+- !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "alpha"]
 - !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "init"]
 - !private ["OSC22UIModalTransitionStyle", "FlipHorizontal"]
 - ["CSo11UIResponder", "Board"]
 - !private ["CSo11UIResponder", "Bool"]
@@ -2885,8 +3009,12 @@ depends-member:
 - !private ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
 - !private ["CSo11UIResponder", "UIModalTransitionStyle"]
+- !private ["CSo11UIResponder", "UIScreen"]
 - !private ["CSo11UIResponder", "UIStoryboard"]
+- ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "alpha"]
+- ["CSo11UIResponder", "alphaiv"]
 - ["CSo11UIResponder", "board"]
 - ["CSo11UIResponder", "borderWidth"]
 - ["CSo11UIResponder", "buttonclicked"]
@@ -2995,7 +3123,9 @@ depends-member:
 - ["CSo11UIResponder", "i55"]
 - !private ["CSo11UIResponder", "image"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "insertSubview"]
 - !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "menu"]
 - !private ["CSo11UIResponder", "modalTransitionStyle"]
 - !private ["CSo11UIResponder", "presentViewController"]
 - ["CSo11UIResponder", "r00"]
@@ -3058,7 +3188,10 @@ depends-member:
 - ["CSo11UIResponder", "rr52"]
 - ["CSo11UIResponder", "rr53"]
 - ["CSo11UIResponder", "rr54"]
+- !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "mainScreen"]
 - ["PSo16UIStateRestoring", "Board"]
 - ["PSo16UIStateRestoring", "Menu"]
 - !private ["PSo16UIStateRestoring", "NSUserDefaults"]
@@ -3066,8 +3199,11 @@ depends-member:
 - ["PSo16UIStateRestoring", "TurnIndicator"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "UIImageView"]
 - !private ["PSo16UIStateRestoring", "UIModalTransitionStyle"]
+- !private ["PSo16UIStateRestoring", "UIScreen"]
 - !private ["PSo16UIStateRestoring", "UIStoryboard"]
+- ["PSo16UIStateRestoring", "alphaiv"]
 - ["PSo16UIStateRestoring", "board"]
 - ["PSo16UIStateRestoring", "borderWidth"]
 - ["PSo16UIStateRestoring", "buttonclicked"]
@@ -3174,6 +3310,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "i54"]
 - ["PSo16UIStateRestoring", "i55"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "menu"]
 - !private ["PSo16UIStateRestoring", "modalTransitionStyle"]
 - !private ["PSo16UIStateRestoring", "presentViewController"]
 - ["PSo16UIStateRestoring", "r00"]
@@ -3236,6 +3373,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "rr52"]
 - ["PSo16UIStateRestoring", "rr53"]
 - ["PSo16UIStateRestoring", "rr54"]
+- !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo12UIStoryboard", "init"]
@@ -3247,10 +3385,15 @@ depends-member:
 - ["PSo18UITraitEnvironment", "TurnIndicator"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "UIImageView"]
 - !private ["PSo18UITraitEnvironment", "UIModalTransitionStyle"]
+- !private ["PSo18UITraitEnvironment", "UIScreen"]
 - !private ["PSo18UITraitEnvironment", "UIStoryboard"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
+- ["PSo18UITraitEnvironment", "alphaiv"]
 - ["PSo18UITraitEnvironment", "board"]
 - ["PSo18UITraitEnvironment", "borderWidth"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
 - ["PSo18UITraitEnvironment", "buttonclicked"]
 - ["PSo18UITraitEnvironment", "buttoninitialization"]
 - ["PSo18UITraitEnvironment", "c00"]
@@ -3357,7 +3500,10 @@ depends-member:
 - ["PSo18UITraitEnvironment", "i55"]
 - !private ["PSo18UITraitEnvironment", "image"]
 - ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "insertSubview"]
 - !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- ["PSo18UITraitEnvironment", "menu"]
 - !private ["PSo18UITraitEnvironment", "modalTransitionStyle"]
 - !private ["PSo18UITraitEnvironment", "presentViewController"]
 - ["PSo18UITraitEnvironment", "r00"]
@@ -3420,10 +3566,14 @@ depends-member:
 - ["PSo18UITraitEnvironment", "rr52"]
 - ["PSo18UITraitEnvironment", "rr53"]
 - ["PSo18UITraitEnvironment", "rr54"]
+- !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "alpha"]
 - !private ["CSo6UIView", "enabled"]
 - !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "insertSubview"]
 - !private ["CSo6UIView", "layer"]
 - ["CSo16UIViewController", "Board"]
 - !private ["CSo16UIViewController", "Bool"]
@@ -3437,8 +3587,11 @@ depends-member:
 - !private ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
 - !private ["CSo16UIViewController", "UIModalTransitionStyle"]
+- !private ["CSo16UIViewController", "UIScreen"]
 - !private ["CSo16UIViewController", "UIStoryboard"]
+- ["CSo16UIViewController", "UIView"]
 - !private ["CSo16UIViewController", "UIViewController"]
+- ["CSo16UIViewController", "alphaiv"]
 - ["CSo16UIViewController", "board"]
 - ["CSo16UIViewController", "borderWidth"]
 - ["CSo16UIViewController", "buttonclicked"]
@@ -3545,6 +3698,7 @@ depends-member:
 - ["CSo16UIViewController", "i54"]
 - ["CSo16UIViewController", "i55"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "menu"]
 - !private ["CSo16UIViewController", "modalTransitionStyle"]
 - !private ["CSo16UIViewController", "presentViewController"]
 - ["CSo16UIViewController", "r00"]
@@ -3607,6 +3761,7 @@ depends-member:
 - ["CSo16UIViewController", "rr52"]
 - ["CSo16UIViewController", "rr53"]
 - ["CSo16UIViewController", "rr54"]
+- !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
@@ -3617,8 +3772,11 @@ depends-member:
 - !private ["Ps24_ImageLiteralConvertible", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "alpha"]
 - !private ["Ps12_Reflectable", "enabled"]
 - !private ["Ps12_Reflectable", "image"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "insertSubview"]
 - !private ["Ps12_Reflectable", "layer"]
 depends-nominal:
 - "Ps9AnyObject"
@@ -3660,6 +3818,7 @@ depends-nominal:
 - !private "CSo11UIImageView"
 - !private "OSC22UIModalTransitionStyle"
 - "CSo11UIResponder"
+- !private "CSo8UIScreen"
 - "PSo16UIStateRestoring"
 - !private "CSo12UIStoryboard"
 - "PSo18UITraitEnvironment"
@@ -3680,4 +3839,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "4f1442ef4747253a490bc2b759531dad"
+interface-hash: "380332749890e5833bd22e46f03a93db"

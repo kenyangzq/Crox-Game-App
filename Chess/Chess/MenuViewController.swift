@@ -18,6 +18,10 @@ class MenuViewController: UIViewController {
         
 
         // Do any additional setup after loading the view.
+        let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
+        backgroundImage.image = UIImage(named: "background1")
+        backgroundImage.alpha = 1
+        self.view.insertSubview(backgroundImage, atIndex: 0)
         main.layer.cornerRadius = 5 as CGFloat
         restart.layer.cornerRadius = 5 as CGFloat
         back.layer.cornerRadius = 5 as CGFloat
