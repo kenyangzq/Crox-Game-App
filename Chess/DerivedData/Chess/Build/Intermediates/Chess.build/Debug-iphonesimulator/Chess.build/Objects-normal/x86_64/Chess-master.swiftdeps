@@ -1,11 +1,11 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
-options: "2ce13b141b591cf5a2181aa6beb1e653"
-build_time: [532320279, 879858000]
+options: "784c19471dae8e3a9a21e9a92c0c7924"
+build_time: [532364677, 849251000]
 inputs:
-  "/Users/ken/Developer/Hackathon2016/Chess/Chess/ChessViewController.swift": [532309761, 0]
-  "/Users/ken/Developer/Hackathon2016/Chess/Chess/MenuViewController.swift": [532309731, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/ChessViewController.swift": [532364282, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/MenuViewController.swift": [532364675, 0]
   "/Users/ken/Developer/Hackathon2016/Chess/Chess/AppDelegate.swift": [532243408, 0]
-  "/Users/ken/Developer/Hackathon2016/Chess/Chess/EndViewController.swift": [532303717, 0]
-  "/Users/ken/Developer/Hackathon2016/Chess/Chess/Board.swift": [532318586, 0]
-  "/Users/ken/Developer/Hackathon2016/Chess/Chess/TutorialViewController.swift": [532301060, 0]
-  "/Users/ken/Developer/Hackathon2016/Chess/Chess/DoublePlayerUIViewController.swift": [532320279, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/EndViewController.swift": [532323556, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/Board.swift": [532364541, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/TutorialViewController.swift": [532364283, 0]
+  "/Users/ken/Developer/Hackathon2016/Chess/Chess/DoublePlayerUIViewController.swift": [532330155, 0]

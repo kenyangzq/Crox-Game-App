@@ -37,7 +37,7 @@ class MenuViewController: UIViewController {
     @IBAction func MainMenu(sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle:nil)
         let viewController = storyboard.instantiateViewControllerWithIdentifier("Main") as UIViewController
-        viewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+        viewController.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
         self.presentViewController(viewController, animated: true, completion: nil)
     }
     

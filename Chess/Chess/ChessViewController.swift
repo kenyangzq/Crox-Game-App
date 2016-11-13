@@ -35,7 +35,7 @@ class ChessViewController: UIViewController {
     @IBAction func Tutorial(sender: UIButton) {
         let sb = UIStoryboard(name: "Main", bundle: nil);
         let vc = sb.instantiateViewControllerWithIdentifier("Tutorial") as UIViewController
-        vc.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+        vc.modalTransitionStyle = UIModalTransitionStyle.CoverVertical
         self.presentViewController(vc, animated: true, completion: nil)
 
         

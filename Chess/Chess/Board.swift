@@ -99,8 +99,6 @@ class Board {
     private func unionEdges(point1: Point, point2: Point) {
         let edges = player1IsPlaying ? player1Edges : player2Edges
         
-        print("edges count: \(edges.count)")
-        
         // first move for each player
         if edges.isEmpty {
             if player1IsPlaying {
@@ -206,7 +204,6 @@ class Board {
             while (s < e) {
                 let currentPoint = viable[s]
                 if player && currentPoint.x == 5 {
-                    print("player 1 has not been blocked")
                     return false
                 }else if !player && currentPoint.y == 5 {
                     return false
@@ -273,7 +270,6 @@ class Board {
                     }
                 }
                 if hasStart && hasEnd {
-                    print("Game ends")
                     return true
                 }
             }
