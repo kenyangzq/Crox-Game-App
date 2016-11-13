@@ -12,18 +12,18 @@ We came up with this idea from chess game
 ## What it does
 This is an iOS board game we developed during the Vandy Hackathon in Fall 2016. The rule is pretty simple: each player plays alternatively till one wins. Player playes by choosing an edge in the board that has not been colored. Red edges represent player 1 and blue edges represent player 2.
 
-<img src="./Chess/Chess/Assets.xcassets/tutorial1.imageset/tutorial1.png" width="100">
+<img src="./Chess/Chess/Assets.xcassets/tutorial1.imageset/tutorial1.png" width="200">
 
 The color of a dot indicate the color of its neighboring edges. The winning condition is also pretty simple: Player 1 wins by connecting the top border with the bottom border, and Player 2 wins by connecting the right border with the left border.
 
 For example, in the following board, player 1 wins.
 
-<img src="./Chess/Chess/Assets.xcassets/tutorial2.imageset/tutorial2.png" width="100">
+<img src="./Chess/Chess/Assets.xcassets/tutorial2.imageset/tutorial2.png" width="200">
 
 
 You can even win by blocking your opponent's way. Like this: 
 
-<img src="./Chess/Chess/Assets.xcassets/tutorial3.imageset/tutorial3.png" width="100">
+<img src="./Chess/Chess/Assets.xcassets/tutorial3.imageset/tutorial3.png" width="200">
 
 In the above board, player 2 wins by blocking player 1's way. 
 
