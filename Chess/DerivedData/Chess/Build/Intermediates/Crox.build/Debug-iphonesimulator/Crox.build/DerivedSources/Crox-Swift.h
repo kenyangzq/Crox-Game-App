@@ -334,6 +334,7 @@ SWIFT_CLASS("_TtC4Crox22TutorialViewController")
 @interface TutorialViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified cover;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified display;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified ratio;
 - (IBAction)MainMenu:(UIButton * _Nonnull)sender;

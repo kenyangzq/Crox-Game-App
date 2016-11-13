@@ -25,6 +25,7 @@ class TutorialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var cover: UIImageView!
     
     @IBOutlet weak var display: UIImageView!
     
@@ -58,60 +59,60 @@ class TutorialViewController: UIViewController {
         ratio.text = String(currentDisplayIndex+1) + "/" + String(namesOfTutorialImage.count)
     }
     
-    private func instructionUpdate() {
-        if (currentDisplayIndex == 0) {
-            Instruction1.hidden = false
-            Instruction2.hidden = false
-            Instruction3.hidden = true
-            Instruction4.hidden = true
-            Instruction5.hidden = true
-            Instruction6.hidden = true
-            Hint.hidden = true
-            Hint2.hidden = true
-        }
-        if (currentDisplayIndex == 1) {
-            Instruction1.hidden = true
-            Instruction2.hidden = true
-            Instruction3.hidden = false
-            Instruction4.hidden = false
-            Instruction5.hidden = false
-            Instruction6.hidden = false
-            Hint.hidden = true
-            Hint2.hidden = true
-        }
-        if (currentDisplayIndex == 2) {
-            Instruction1.hidden = true
-            Instruction2.hidden = true
-            Instruction3.hidden = true
-            Instruction4.hidden = true
-            Instruction5.hidden = true
-            Instruction6.hidden = true
-            Hint.hidden = false
-            Hint2.hidden = false
-        }
-    }
-    
-    @IBOutlet weak var Instruction1: UILabel!
-    @IBOutlet weak var Instruction2: UILabel!
-    @IBOutlet weak var Instruction3: UILabel!
-    @IBOutlet weak var Instruction4: UILabel!
-    @IBOutlet weak var Instruction5: UILabel!
-    @IBOutlet weak var Instruction6: UILabel!
-    @IBOutlet weak var Hint: UILabel!
-    @IBOutlet weak var Hint2: UILabel!
+//    private func instructionUpdate() {
+//        if (currentDisplayIndex == 0) {
+//            Instruction1.hidden = false
+//            Instruction2.hidden = false
+//            Instruction3.hidden = true
+//            Instruction4.hidden = true
+//            Instruction5.hidden = true
+//            Instruction6.hidden = true
+//            Hint.hidden = true
+//            Hint2.hidden = true
+//        }
+//        if (currentDisplayIndex == 1) {
+//            Instruction1.hidden = true
+//            Instruction2.hidden = true
+//            Instruction3.hidden = false
+//            Instruction4.hidden = false
+//            Instruction5.hidden = false
+//            Instruction6.hidden = false
+//            Hint.hidden = true
+//            Hint2.hidden = true
+//        }
+//        if (currentDisplayIndex == 2) {
+//            Instruction1.hidden = true
+//            Instruction2.hidden = true
+//            Instruction3.hidden = true
+//            Instruction4.hidden = true
+//            Instruction5.hidden = true
+//            Instruction6.hidden = true
+//            Hint.hidden = false
+//            Hint2.hidden = false
+//        }
+//    }
+//    
+//    @IBOutlet weak var Instruction1: UILabel!
+//    @IBOutlet weak var Instruction2: UILabel!
+//    @IBOutlet weak var Instruction3: UILabel!
+//    @IBOutlet weak var Instruction4: UILabel!
+//    @IBOutlet weak var Instruction5: UILabel!
+//    @IBOutlet weak var Instruction6: UILabel!
+//    @IBOutlet weak var Hint: UILabel!
+//    @IBOutlet weak var Hint2: UILabel!
     
     
     @IBAction func Next(sender: UIButton) {
         displayTutorialImage(true)
         updateRatio()
-        instructionUpdate()
+        // instructionUpdate()
     }
     
     
     @IBAction func Back(sender: UIButton) {
         displayTutorialImage(false)
         updateRatio()
-        instructionUpdate()
+        // instructionUpdate()
     }
     
     
