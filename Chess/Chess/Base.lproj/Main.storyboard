@@ -10,7 +10,7 @@
         <!--Chess View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Main" id="BYZ-38-t0r" customClass="ChessViewController" customModule="Chess" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" id="BYZ-38-t0r" customClass="ChessViewController" customModule="Crox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -165,7 +165,7 @@
         <!--Tutorial View Controller-->
         <scene sceneID="Cx9-dX-1OI">
             <objects>
-                <viewController storyboardIdentifier="Tutorial" id="zVa-C2-CPd" customClass="TutorialViewController" customModule="Chess" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tutorial" id="zVa-C2-CPd" customClass="TutorialViewController" customModule="Crox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YdZ-2U-CvR"/>
                         <viewControllerLayoutGuide type="bottom" id="uHc-D6-qfs"/>
@@ -502,7 +502,7 @@
         <!--Double PlayerUI View Controller-->
         <scene sceneID="VRh-kb-KPW">
             <objects>
-                <viewController storyboardIdentifier="Double" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tq4-48-IfW" customClass="DoublePlayerUIViewController" customModule="Chess" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Double" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tq4-48-IfW" customClass="DoublePlayerUIViewController" customModule="Crox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="INu-wH-3S2"/>
                         <viewControllerLayoutGuide type="bottom" id="nqb-SB-Y2B"/>
@@ -3633,7 +3633,7 @@
         <!--Menu View Controller-->
         <scene sceneID="0np-xY-FV2">
             <objects>
-                <viewController storyboardIdentifier="Menu" id="3js-oT-V44" customClass="MenuViewController" customModule="Chess" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Menu" id="3js-oT-V44" customClass="MenuViewController" customModule="Crox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F3f-Ci-jcB"/>
                         <viewControllerLayoutGuide type="bottom" id="IRd-09-gY0"/>
@@ -3794,7 +3794,7 @@
         <!--End View Controller-->
         <scene sceneID="zeK-OC-Vhp">
             <objects>
-                <viewController storyboardIdentifier="End" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L2P-jW-ybM" customClass="EndViewController" customModule="Chess" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="End" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L2P-jW-ybM" customClass="EndViewController" customModule="Crox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jmC-OW-o40"/>
                         <viewControllerLayoutGuide type="bottom" id="LIE-Vs-ODK"/>
@@ -3929,6 +3929,6 @@
     <resources>
         <image name="circle" width="600" height="600"/>
         <image name="circle-red" width="600" height="600"/>
-        <image name="tutorial1" width="738" height="1316"/>
+        <image name="tutorial1" width="732" height="1312"/>
     </resources>
 </document>

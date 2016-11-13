@@ -577,7 +577,7 @@ class DoublePlayerUIViewController: UIViewController {
         let f = board.play(Point.init(a: 1, b: 3), p2: Point.init(a: 2, b: 3))
         changeColor(firstplay, iv: i13)
         changeColor(firstplay, iv: i23)
-        //if (f) {endGame(f, player: firstplay)}
+        if (f) {endGame(f, player: firstplay)}
         firstplay = checkTurn(firstplay)
     }
     @IBAction func cc14(sender: UIButton) {

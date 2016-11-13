@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BEDEFA4D1DD6C3BE005D81B1"
-               BuildableName = "Chess.app"
-               BlueprintName = "Chess"
+               BuildableName = "Crox.app"
+               BlueprintName = "Crox"
                ReferencedContainer = "container:Crox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BEDEFA4D1DD6C3BE005D81B1"
-            BuildableName = "Chess.app"
-            BlueprintName = "Chess"
+            BuildableName = "Crox.app"
+            BlueprintName = "Crox"
             ReferencedContainer = "container:Crox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BEDEFA4D1DD6C3BE005D81B1"
-            BuildableName = "Chess.app"
-            BlueprintName = "Chess"
+            BuildableName = "Crox.app"
+            BlueprintName = "Crox"
             ReferencedContainer = "container:Crox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BEDEFA4D1DD6C3BE005D81B1"
-            BuildableName = "Chess.app"
-            BlueprintName = "Chess"
+            BuildableName = "Crox.app"
+            BlueprintName = "Crox"
             ReferencedContainer = "container:Crox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
