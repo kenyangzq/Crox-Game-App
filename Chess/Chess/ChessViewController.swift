@@ -16,6 +16,9 @@ class ChessViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad();
+        
+//        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background1.jpeg")!)
+        
         Single.layer.cornerRadius = 5 as CGFloat
         Double.layer.cornerRadius = 5 as CGFloat
         Tutorial.layer.cornerRadius = 5 as CGFloat

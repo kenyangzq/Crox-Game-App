@@ -36,13 +36,13 @@ class Board {
     private var player1Edges = [[Point]]()
     private var player2Edges = [[Point]]()
     
-    //set 0 as moving upward, 1 as moving rightwarad, 2 as moving downward and 3 as moving leftward
-    private var dot = Array<Array<Array<Bool>>>(count: 6, repeatedValue: Array<Array<Bool>>(count: 6, repeatedValue: Array<Bool>(count: 4, repeatedValue: true)))
+    private var redgeMark = Array<Array<Int>>(count: 6, repeatedValue: Array<Int>(count:5, repeatedValue: 0))
+    private var cedgeMark = Array<Array<Int>>(count: 5, repeatedValue: Array<Int>(count:6, repeatedValue: 0))
+    
+    private let directionMatrix = [[0,1], [1,0], [0,-1], [-1,0]]
     private var player1IsPlaying = true
     
-    //record the last move of both players
-    private var player1LastMove = [Point]()
-    private var player2LastMove = [Point]()
+
     
     private var numOfMoves = 0
     
@@ -57,29 +57,14 @@ class Board {
         
         unionEdges(p1, point2: p2)
         
-        if player1IsPlaying {
-            player1LastMove = [p1, p2]
+        
+        if (p1.x == p2.x) {
+            redgeMark[p1.x][p1.y] = player1IsPlaying ? 1 : 2
         }else{
-            player2LastMove = [p1, p2]
-            if (p2.x == p1.x + 1) {
-                dot[p1.x][p1.y][2] = false;
-                dot[p2.x][p2.y][0] = false;
-            }
-            if (p2.x == p1.x - 1) {
-                dot[p1.x][p1.y][0] = false;
-                dot[p2.x][p2.y][2] = false;
-            }
-            if (p2.y == p1.y + 1) {
-                dot[p1.x][p1.y][1] = false;
-                dot[p2.x][p2.y][3] = false;
-            }
-            if (p2.y == p1.y - 1) {
-                dot[p1.x][p1.y][3] = false;
-                dot[p2.x][p2.y][1] = false;
-            }
+            cedgeMark[p1.x][p1.y] = player1IsPlaying ? 1 : 2
         }
         
-        let endornot =  (numOfMoves >= 8 && (endOfGame()))
+        let endornot = (endOfGame())
         
         player1IsPlaying = !player1IsPlaying
         numOfMoves += 1
@@ -87,11 +72,7 @@ class Board {
         return endornot
     }
     
-    
-    // to be implemented
-    func regret() {
-        
-    }
+
     
     
     
@@ -193,9 +174,71 @@ class Board {
         
     }
     
+    // true for player1 and false for player2
+    private func containPoint (player: Bool, target: Point) -> Bool {
+        let edges = player ? player1Edges : player2Edges
+        for x in edges {
+            if x.contains({$0 == target}) {
+                return true
+            }
+        }
+        return false
+    }
     
-
     
+    // this function check whether the board is blocked
+    // true check for player1 which means whether player2 has block the way, so containPoint call for player2
+    // false check for player2
+    //
+    private func checkForBlock (player: Bool) -> Bool {
+        
+        // check for whether player 1 is blocked by player 2
+        //
+        for i in 0...5 {
+            // for player1 start from top
+            //
+            let start = player ? Point(a: 0,b: i) : Point(a: i, b: 0)
+            var viable = [Point]()
+            viable.append(start)
+            
+            var s = 0, e = 1
+            
+            while (s < e) {
+                let currentPoint = viable[s]
+                if player && currentPoint.x == 5 {
+                    print("player 1 has not been blocked")
+                    return false
+                }else if !player && currentPoint.y == 5 {
+                    return false
+                }
+                for j in 0...3 {
+                    let nextPoint = Point(a:currentPoint.x + directionMatrix[j][0], b: currentPoint.y+directionMatrix[j][1])
+                    if nextPoint.x < 0 || nextPoint.x > 5 || nextPoint.y < 0 || nextPoint.y > 5 {
+                        continue
+                    }
+                    
+                    if viable.contains({nextPoint == $0}) {
+                        continue
+                    }
+                    
+                    if j % 2 == 0 {
+                        if redgeMark[currentPoint.x][j == 0 ? currentPoint.y : nextPoint.y] == (player ? 2 : 1 ) {
+                            continue
+                        }
+                    }else{
+                        if cedgeMark[j == 1 ? currentPoint.x : nextPoint.x][currentPoint.y] == (player ? 2 : 1) {
+                            continue
+                        }
+                    }
+                    
+                    viable.append(nextPoint)
+                    e += 1
+                }
+                s += 1
+            }
+        }
+        return true
+    }
     
     
     // brute force version to decide whether the game is over
@@ -252,40 +295,8 @@ class Board {
                     return true
                 }
             }
-            for i in 0...5 {
-
-                var viable = [Point]()
-                let start = Point(a: i,b: 0)
-                var s = -1, e = 0
-                viable.append(start)
-                while (s < e) {
-                    s = s + 1
-                    let now = viable[s] as Point
-                    for j in 0...3 {
-                        if (dot[now.x][now.y][j]) {
-                            var f = true
-                            var newone = now
-                            if (j == 0) {newone = Point(a: now.x - 1, b: now.y)}
-                            if (j == 1) {newone = Point(a: now.x, b: now.y + 1)}
-                            if (j == 2) {newone = Point(a: now.x + 1, b: now.y)}
-                            if (j == 3) {newone = Point(a: now.x, b: now.y - 1)}
-                            if (newone.x < 0 || newone.y < 0 || newone.x > 5 || newone.y > 5) {break}
-                            
-                            for k in 0...e {
-                                if (newone == viable[k]) {f = false}
-                            }
-                            if (f) {
-                                if (newone.x == 5) {return false}
-                                viable.append(newone)
-                                e = e + 1
-                            }
-                        }
-                    }
-                }
-            }
-            return true
         }
-        return false
+        return checkForBlock(!player1IsPlaying)
     }
     
 }

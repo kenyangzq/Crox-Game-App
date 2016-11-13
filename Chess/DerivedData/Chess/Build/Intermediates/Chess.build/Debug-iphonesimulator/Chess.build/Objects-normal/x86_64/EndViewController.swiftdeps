@@ -7,23 +7,23 @@ provides-member:
 - ["C5Chess17EndViewController", ""]
 provides-dynamic-lookup:
 - "restart"
-- "didReceiveMemoryWarning"
-- "Restart"
-- "MainMenu"
-- "main"
 - "player"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "MainMenu"
+- "Restart"
+- "main"
 depends-top-level:
+- "EndViewController"
+- "UIButton"
 - !private "CGFloat"
 - !private "UIModalTransitionStyle"
-- "UIViewController"
-- "EndViewController"
-- !private "NSUserDefaults"
 - !private "BooleanLiteralType"
+- !private "NSUserDefaults"
+- "UIViewController"
 - "UILabel"
-- !private "UIStoryboard"
-- "UIButton"
 - !private "StringLiteralType"
+- !private "UIStoryboard"
 depends-member:
 - ["Ps9AnyObject", "MainMenu"]
 - !private ["Ps9AnyObject", "NSUserDefaults"]

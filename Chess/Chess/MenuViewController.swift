@@ -15,6 +15,7 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var back: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
         main.layer.cornerRadius = 5 as CGFloat

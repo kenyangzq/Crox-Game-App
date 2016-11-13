@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C5Chess18MenuViewController", ""]
 provides-dynamic-lookup:
-- "main"
-- "didReceiveMemoryWarning"
-- "back"
-- "MainMenu"
-- "Restart"
-- "viewDidLoad"
 - "restart"
 - "Back"
+- "MainMenu"
+- "back"
+- "main"
+- "viewDidLoad"
+- "Restart"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "StringLiteralType"
-- "UIViewController"
-- !private "UIStoryboard"
 - !private "BooleanLiteralType"
+- "UIViewController"
 - "MenuViewController"
+- !private "UIStoryboard"
+- "UIButton"
+- !private "StringLiteralType"
 - !private "CGFloat"
 - !private "UIModalTransitionStyle"
-- "UIButton"
 depends-member:
 - ["Ps9AnyObject", "Back"]
 - ["Ps9AnyObject", "MainMenu"]
