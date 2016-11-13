@@ -9,7 +9,7 @@ We came up with this idea from chess game
 
 
 
-## What it doex
+## What it does
 This is an iOS board game we developed during the Vandy Hackathon in Fall 2016. The rule is pretty simple: each player plays alternatively till one wins. Player playes by choosing an edge in the board that has not been colored. Red edges represent player 1 and blue edges represent player 2.
 
 <img src="./Chess/Chess/Assets.xcassets/tutorial1.imageset/tutorial1.png" width="100">
